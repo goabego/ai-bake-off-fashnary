@@ -1,10 +1,9 @@
-# Fashnary - E-commerce Platform
+# Fashnary - AI Agent Bake Off - Google
+To help with the AI Agent Bake we made this starter code.
 
-To helps with the AI Agent Bake off feel free to use this as a starter. 
+You will have access to the `product_database.json` which will act as your "database" for the back-off. Please review the Dependencies section and contact us if you are facing any issues getting this code running locally.
 
-You will have access to the product_database.json which will act as your "database" for the day. You maybe use the following backend Fast API code and/or the Frontend (Tailwinds, Next.js). Please review the Dependencies section and contact Abraham is you have any quesrtions (or issues).
-
-Note for this competition we are focusing the Agent Developer Kit uniqueness! So feel free to ignore the frontend design elements. 
+Note for this competition we are focusing the Agent Developer Kit uniqueness, so feel free to ignore the frontend design elements. 
 
 ## Mock Database
 
