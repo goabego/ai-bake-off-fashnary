@@ -5,6 +5,8 @@ You will have access to the `product_database.json` which will act as your "data
 
 Note for this competition we are focusing the Agent Developer Kit uniqueness, so feel free to ignore the frontend design elements. 
 
+## Folder Structure
+
 ## Mock Database
 
 The `product_database.json` file serves as your mock database with the following structure:
@@ -132,6 +134,10 @@ The `users_database.json` file contains user data with the following structure:
 - Get formatted product display data with images
 - CORS enabled for cross-origin requests
 
+![FastAPI Interactive Docs](./fast_api_screenshot.png)
+
+*The FastAPI auto-generated interactive API documentation (Swagger UI) for Fashnary.*
+
 #### Avaliable Endpoints
 
 1. **Get All Products**
@@ -207,6 +213,11 @@ The `users_database.json` file contains user data with the following structure:
 - Real-time stock status indicators
 - Beautiful product cards with images
 - Mobile-friendly design
+
+![Fashnary Website Sample](./website-sample_screenshot.png)
+
+*A sample of the Fashnary e-commerce website frontend UI.*
+
 
 ## Installation
 
