@@ -1,0 +1,657 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "name": "Marcus W.",
+      "description": "black male model with an afro",
+      "style_preferences": [
+        "dress",
+        "long sleeve"
+      ],
+      "image_url": "images/users/user_1_Marcus-W._V1.jpg",
+      "purchase_history": [
+        "144",
+        "59",
+        "201",
+        "18",
+        "6",
+        "5",
+        "75",
+        "87",
+        "84"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "27",
+            "quantity": 1,
+            "added_at": "2025-06-01T20:28:15.373437"
+          },
+          {
+            "product_id": "171",
+            "quantity": 1,
+            "added_at": "2025-06-02T20:28:15.373457"
+          },
+          {
+            "product_id": "166",
+            "quantity": 1,
+            "added_at": "2025-06-05T20:28:15.373462"
+          },
+          {
+            "product_id": "181",
+            "quantity": 1,
+            "added_at": "2025-06-02T20:28:15.373465"
+          }
+        ],
+        "total_items": 4,
+        "total_price": 454.61
+      },
+      "created_at": "2025-06-08T20:28:15.373474"
+    },
+    {
+      "id": "user_2",
+      "name": "Jane D.",
+      "description": "white female model",
+      "style_preferences": [
+        "sweater",
+        "dress",
+        "long sleeve"
+      ],
+      "image_url": "images/users/user_2_Jane-D._V1.jpg",
+      "purchase_history": [
+        "122",
+        "178",
+        "45",
+        "153",
+        "197",
+        "48",
+        "44",
+        "169"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "49",
+            "quantity": 2,
+            "added_at": "2025-06-02T20:28:19.134982"
+          }
+        ],
+        "total_items": 1,
+        "total_price": 33.2
+      },
+      "created_at": "2025-06-08T20:28:19.135016"
+    },
+    {
+      "id": "user_3",
+      "name": "David P.",
+      "description": "asian male model with a small beard",
+      "style_preferences": [
+        "dress"
+      ],
+      "image_url": "images/users/user_3_David-P._V1.jpg",
+      "purchase_history": [
+        "181",
+        "199",
+        "77",
+        "75",
+        "185",
+        "62",
+        "149"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "177",
+            "quantity": 2,
+            "added_at": "2025-06-07T20:28:23.215322"
+          },
+          {
+            "product_id": "59",
+            "quantity": 2,
+            "added_at": "2025-06-06T20:28:23.215348"
+          }
+        ],
+        "total_items": 2,
+        "total_price": 236.08999999999997
+      },
+      "created_at": "2025-06-08T20:28:23.215358"
+    },
+    {
+      "id": "user_4",
+      "name": "Isabella R.",
+      "description": "latina female model",
+      "style_preferences": [
+        "dress",
+        "sweater",
+        "t-shirt"
+      ],
+      "image_url": "images/users/user_4_Isabella-R._V1.jpg",
+      "purchase_history": [
+        "142",
+        "22",
+        "100",
+        "86",
+        "183",
+        "63"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "68",
+            "quantity": 1,
+            "added_at": "2025-06-08T20:28:27.496548"
+          },
+          {
+            "product_id": "71",
+            "quantity": 1,
+            "added_at": "2025-06-03T20:28:27.496566"
+          },
+          {
+            "product_id": "203",
+            "quantity": 2,
+            "added_at": "2025-06-07T20:28:27.496573"
+          }
+        ],
+        "total_items": 3,
+        "total_price": 332.74
+      },
+      "created_at": "2025-06-08T20:28:27.496584"
+    },
+    {
+      "id": "user_5",
+      "name": "Priya S.",
+      "description": "indian female model with long black hair and traditional bindi",
+      "style_preferences": [
+        "t-shirt"
+      ],
+      "image_url": "images/users/user_5_Priya-S._V1.jpg",
+      "purchase_history": [
+        "121",
+        "112",
+        "145",
+        "187",
+        "106",
+        "61",
+        "38",
+        "63",
+        "191"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "135",
+            "quantity": 2,
+            "added_at": "2025-06-05T20:28:32.199700"
+          },
+          {
+            "product_id": "90",
+            "quantity": 1,
+            "added_at": "2025-06-07T20:28:32.199715"
+          },
+          {
+            "product_id": "195",
+            "quantity": 2,
+            "added_at": "2025-06-05T20:28:32.199717"
+          }
+        ],
+        "total_items": 3,
+        "total_price": 282.21999999999997
+      },
+      "created_at": "2025-06-08T20:28:32.199726"
+    },
+    {
+      "id": "user_6",
+      "name": "Dmitri V.",
+      "description": "russian male model with short blonde hair and blue eyes",
+      "style_preferences": [
+        "long sleeve",
+        "t-shirt",
+        "dress"
+      ],
+      "image_url": "images/users/user_6_Dmitri-V._V1.jpg",
+      "purchase_history": [
+        "171",
+        "204",
+        "70",
+        "202",
+        "193",
+        "47",
+        "104",
+        "143",
+        "166",
+        "11"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "34",
+            "quantity": 1,
+            "added_at": "2025-06-04T20:28:36.023870"
+          },
+          {
+            "product_id": "115",
+            "quantity": 2,
+            "added_at": "2025-06-04T20:28:36.023892"
+          },
+          {
+            "product_id": "155",
+            "quantity": 1,
+            "added_at": "2025-06-03T20:28:36.023896"
+          }
+        ],
+        "total_items": 3,
+        "total_price": 241.57
+      },
+      "created_at": "2025-06-08T20:28:36.023905"
+    },
+    {
+      "id": "user_7",
+      "name": "Pinto6",
+      "description": "humanoid robot with blue and white metallic body",
+      "style_preferences": [
+        "dress",
+        "sweater",
+        "t-shirt"
+      ],
+      "image_url": "images/users/user_7_Pinto6_V1.jpg",
+      "purchase_history": [
+        "81",
+        "13",
+        "139",
+        "161",
+        "33",
+        "86",
+        "93",
+        "75"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "184",
+            "quantity": 1,
+            "added_at": "2025-06-01T20:28:39.951290"
+          },
+          {
+            "product_id": "62",
+            "quantity": 2,
+            "added_at": "2025-06-07T20:28:39.951306"
+          },
+          {
+            "product_id": "96",
+            "quantity": 1,
+            "added_at": "2025-06-04T20:28:39.951310"
+          },
+          {
+            "product_id": "22",
+            "quantity": 1,
+            "added_at": "2025-06-02T20:28:39.951314"
+          }
+        ],
+        "total_items": 4,
+        "total_price": 220.47000000000003
+      },
+      "created_at": "2025-06-08T20:28:39.951323"
+    },
+    {
+      "id": "user_8",
+      "name": "Rusty",
+      "description": "humanoid robot with chipped and faded blue paint on its metallic body, revealing dull, grey metal underneath",
+      "style_preferences": [
+        "sweater",
+        "dress"
+      ],
+      "image_url": "images/users/user_8_Rusty_V1.jpg",
+      "purchase_history": [
+        "214",
+        "191",
+        "159",
+        "167",
+        "108",
+        "26",
+        "67",
+        "63"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "102",
+            "quantity": 2,
+            "added_at": "2025-06-03T20:28:43.876455"
+          }
+        ],
+        "total_items": 1,
+        "total_price": 24.53
+      },
+      "created_at": "2025-06-08T20:28:43.876485"
+    },
+    {
+      "id": "user_9",
+      "name": "CubeBot",
+      "description": "square humanoid robot with short metal body",
+      "style_preferences": [
+        "sweater"
+      ],
+      "image_url": "images/users/user_9_CubeBot_V1.jpg",
+      "purchase_history": [
+        "198",
+        "190",
+        "21",
+        "176",
+        "199",
+        "68",
+        "137"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "91",
+            "quantity": 1,
+            "added_at": "2025-06-01T20:28:47.842315"
+          },
+          {
+            "product_id": "90",
+            "quantity": 1,
+            "added_at": "2025-06-04T20:28:47.842328"
+          }
+        ],
+        "total_items": 2,
+        "total_price": 183.60000000000002
+      },
+      "created_at": "2025-06-08T20:28:47.842334"
+    },
+    {
+      "id": "user_10",
+      "name": "ShadowX",
+      "description": "black humanoid robot with futuristic helmet",
+      "style_preferences": [
+        "t-shirt",
+        "sweater",
+        "dress"
+      ],
+      "image_url": "images/users/user_10_ShadowX_V1.jpg",
+      "purchase_history": [
+        "84",
+        "4",
+        "166",
+        "3",
+        "126",
+        "200",
+        "145",
+        "164"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "51",
+            "quantity": 1,
+            "added_at": "2025-06-01T20:28:51.895161"
+          },
+          {
+            "product_id": "75",
+            "quantity": 1,
+            "added_at": "2025-06-08T20:28:51.895179"
+          },
+          {
+            "product_id": "104",
+            "quantity": 2,
+            "added_at": "2025-06-04T20:28:51.895182"
+          },
+          {
+            "product_id": "138",
+            "quantity": 2,
+            "added_at": "2025-06-02T20:28:51.895187"
+          }
+        ],
+        "total_items": 4,
+        "total_price": 266.90999999999997
+      },
+      "created_at": "2025-06-08T20:28:51.895196"
+    },
+    {
+      "id": "user_11",
+      "name": "Sundar Pichai",
+      "description": "indian male with short black hair, wearing glasses, and a clean-cut professional appearance that looks like Sundar Pichai",
+      "style_preferences": [
+        "t-shirt"
+      ],
+      "image_url": "images/users/user_11_Sundar-Pichai_V1.jpg",
+      "purchase_history": [
+        "205",
+        "132",
+        "77"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "93",
+            "quantity": 1,
+            "added_at": "2025-06-01T20:28:56.253973"
+          },
+          {
+            "product_id": "209",
+            "quantity": 2,
+            "added_at": "2025-06-04T20:28:56.253990"
+          },
+          {
+            "product_id": "102",
+            "quantity": 1,
+            "added_at": "2025-06-04T20:28:56.253994"
+          },
+          {
+            "product_id": "153",
+            "quantity": 1,
+            "added_at": "2025-06-02T20:28:56.253997"
+          },
+          {
+            "product_id": "136",
+            "quantity": 2,
+            "added_at": "2025-06-04T20:28:56.254000"
+          }
+        ],
+        "total_items": 5,
+        "total_price": 242.86
+      },
+      "created_at": "2025-06-08T20:28:56.254010"
+    },
+    {
+      "id": "user_12",
+      "name": "Grace Hopper",
+      "description": "elderly white female with short white hair, wearing glasses, and a warm, intelligent expression that looks like Grace Hopper",
+      "style_preferences": [
+        "t-shirt"
+      ],
+      "image_url": "images/users/user_12_Grace-Hopper_V1.jpg",
+      "purchase_history": [
+        "193",
+        "107",
+        "210",
+        "146",
+        "90",
+        "19",
+        "88",
+        "136"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "125",
+            "quantity": 1,
+            "added_at": "2025-06-03T20:29:00.270799"
+          },
+          {
+            "product_id": "159",
+            "quantity": 2,
+            "added_at": "2025-06-08T20:29:00.270820"
+          }
+        ],
+        "total_items": 2,
+        "total_price": 193.51
+      },
+      "created_at": "2025-06-08T20:29:00.270832"
+    },
+    {
+      "id": "user_13",
+      "name": "Alan Turing",
+      "description": "white male with short dark hair, wearing glasses, and a thoughtful expression that looks like Alan Turing",
+      "style_preferences": [
+        "long sleeve",
+        "sweater",
+        "t-shirt"
+      ],
+      "image_url": "images/users/user_13_Alan-Turing_V1.jpg",
+      "purchase_history": [
+        "22",
+        "25",
+        "115",
+        "65",
+        "175",
+        "177",
+        "13",
+        "134"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "50",
+            "quantity": 2,
+            "added_at": "2025-06-07T20:29:04.228921"
+          }
+        ],
+        "total_items": 1,
+        "total_price": 99.96
+      },
+      "created_at": "2025-06-08T20:29:04.228939"
+    },
+    {
+      "id": "user_14",
+      "name": "Marie Curie",
+      "description": "white female with dark hair in a bun, wearing a formal dress, and a determined expression that looks like Marie Curie",
+      "style_preferences": [
+        "sweater",
+        "long sleeve"
+      ],
+      "image_url": "images/users/user_14_Marie-Curie_V1.jpg",
+      "purchase_history": [
+        "215",
+        "58",
+        "132",
+        "33",
+        "66",
+        "100",
+        "152",
+        "85",
+        "90"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "52",
+            "quantity": 2,
+            "added_at": "2025-06-07T20:29:08.342728"
+          },
+          {
+            "product_id": "24",
+            "quantity": 1,
+            "added_at": "2025-06-05T20:29:08.342750"
+          },
+          {
+            "product_id": "179",
+            "quantity": 1,
+            "added_at": "2025-06-03T20:29:08.342754"
+          },
+          {
+            "product_id": "204",
+            "quantity": 2,
+            "added_at": "2025-06-03T20:29:08.342758"
+          },
+          {
+            "product_id": "1",
+            "quantity": 2,
+            "added_at": "2025-06-07T20:29:08.342761"
+          }
+        ],
+        "total_items": 5,
+        "total_price": 459.19
+      },
+      "created_at": "2025-06-08T20:29:08.342771"
+    },
+    {
+      "id": "user_15",
+      "name": "Chien-Shiung Wu",
+      "description": "asian female with short dark hair, wearing glasses, and a confident expression that looks like Chien-Shiung Wu",
+      "style_preferences": [
+        "long sleeve",
+        "sweater",
+        "t-shirt"
+      ],
+      "image_url": "images/users/user_15_Chien-Shiung-Wu_V1.jpg",
+      "purchase_history": [
+        "212",
+        "104",
+        "24",
+        "95",
+        "72",
+        "17",
+        "131",
+        "3",
+        "105",
+        "206"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "137",
+            "quantity": 1,
+            "added_at": "2025-06-07T20:29:12.260125"
+          },
+          {
+            "product_id": "95",
+            "quantity": 2,
+            "added_at": "2025-06-08T20:29:12.260138"
+          }
+        ],
+        "total_items": 2,
+        "total_price": 219.92000000000002
+      },
+      "created_at": "2025-06-08T20:29:12.260143"
+    },
+    {
+      "id": "user_16",
+      "name": "Demis Hassabis",
+      "description": "british male with short dark hair, wearing glasses, and an intelligent, focused expression that looks like Demis Hassabis",
+      "style_preferences": [
+        "t-shirt",
+        "dress",
+        "sweater"
+      ],
+      "image_url": "images/users/user_16_Demis-Hassabis_V1.jpg",
+      "purchase_history": [
+        "177",
+        "188",
+        "129",
+        "192"
+      ],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "84",
+            "quantity": 1,
+            "added_at": "2025-06-04T20:29:16.235537"
+          }
+        ],
+        "total_items": 1,
+        "total_price": 40.03
+      },
+      "created_at": "2025-06-08T20:29:16.235553"
+    }
+  ],
+  "metadata": {
+    "total_users": 16,
+    "generated_at": "2025-06-08T20:29:16.235575",
+    "stats": {
+      "total_purchases": 122,
+      "total_cart_items": 43,
+      "total_cart_value": 3531.41
+    }
+  }
+}
