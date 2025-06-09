@@ -48,6 +48,44 @@ The `product_database.json` file serves as your mock database with the following
 }
 ```
 
+The `users_database.json` file contains user data with the following structure:
+
+```json
+{
+  "users": [
+    {
+      "id": "user_1",
+      "name": "John Doe",
+      "description": "Fashion enthusiast",
+      "style_preferences": ["t-shirt", "sweater"],
+      "image_url": "path/to/user/image.jpg",
+      "purchase_history": ["1", "2", "3"],
+      "cart_status": {
+        "items": [
+          {
+            "product_id": "4",
+            "quantity": 2,
+            "added_at": "2024-03-14T12:00:00Z"
+          }
+        ],
+        "total_items": 1,
+        "total_price": 59.98
+      },
+      "created_at": "2024-03-14T12:00:00Z"
+    }
+  ],
+  "metadata": {
+    "total_users": 50,
+    "generated_at": "2024-03-14T12:00:00Z",
+    "stats": {
+      "total_purchases": 150,
+      "total_cart_items": 75,
+      "total_cart_value": 2999.50
+    }
+  }
+}
+```
+
 ### Database Structure
 
 1. **Products Array**
@@ -63,7 +101,21 @@ The `product_database.json` file serves as your mock database with the following
      - `price`: Product price (float)
      - `created_at`: Creation timestamp (ISO 8601 string)
 
-2. **Metadata Object**
+2. **Users Array**
+   - Each user is a JSON object with the following fields:
+     - `id`: Unique identifier (string)
+     - `name`: User's name (string)
+     - `description`: User description (string)
+     - `style_preferences`: List of preferred product types (array of strings)
+     - `image_url`: Path to user's profile image (string)
+     - `purchase_history`: List of purchased product IDs (array of strings)
+     - `cart_status`: Current shopping cart status (object)
+       - `items`: List of cart items with product ID, quantity, and added timestamp
+       - `total_items`: Total number of items in cart
+       - `total_price`: Total price of cart items
+     - `created_at`: Creation timestamp (ISO 8601 string)
+
+3. **Metadata Objects**
    - Contains aggregated statistics about the products:
      - `total_products`: Total number of products
      - `types`: Distribution of products by type
@@ -106,6 +158,47 @@ The `product_database.json` file serves as your mock database with the following
    GET /metadata
    ```
    - Returns the pre-calculated metadata statistics
+
+5. **User Endpoints**
+
+   a. **Get All Users**
+   ```
+   GET /users
+   ```
+   - Returns the full users array
+
+   b. **Get User by ID**
+   ```
+   GET /users/{user_id}
+   ```
+   - Returns a single user by their ID
+
+   c. **Get User's Purchases**
+   ```
+   GET /users/{user_id}/purchases
+   ```
+   - Returns list of products purchased by the user
+   - Includes full product details
+
+   d. **Get User's Cart**
+   ```
+   GET /users/{user_id}/cart
+   ```
+   - Returns current cart status
+   - Includes items, quantities, and total price
+
+   e. **Get User's Style Preferences**
+   ```
+   GET /users/{user_id}/style-preferences
+   ```
+   - Returns list of user's preferred product types
+
+   f. **Get Users Metadata**
+   ```
+   GET /users/metadata
+   ```
+   - Returns statistics about all users
+   - Includes total users, purchases, cart items, etc.
 
 ### Frontend (Next.js)
 - Modern, responsive product catalog
@@ -230,41 +323,123 @@ The image is returned as a base64 encoded string that can be directly used in an
 <img src="data:image/jpeg;base64,..." alt="Product Image">
 ```
 
+#### User Endpoints
+
+##### GET /users
+
+Get all users.
+
+Example:
+```bash
+GET /users
+```
+
+Response format:
+```json
+[
+  {
+    "id": "string",
+    "name": "string",
+    "description": "string",
+    "style_preferences": ["string"],
+    "image_url": "string",
+    "purchase_history": ["string"],
+    "cart_status": {
+      "items": [
+        {
+          "product_id": "string",
+          "quantity": "integer",
+          "added_at": "string"
+        }
+      ],
+      "total_items": "integer",
+      "total_price": "float"
+    },
+    "created_at": "string"
+  }
+]
+```
+
+##### GET /users/{user_id}
+
+Get a specific user by ID.
+
+Example:
+```bash
+GET /users/user_1
+```
+
+##### GET /users/{user_id}/purchases
+
+Get all products purchased by a specific user.
+
+Example:
+```bash
+GET /users/user_1/purchases
+```
+
+##### GET /users/{user_id}/cart
+
+Get the current cart status for a specific user.
+
+Example:
+```bash
+GET /users/user_1/cart
+```
+
+Response format:
+```json
+{
+  "items": [
+    {
+      "product_id": "string",
+      "quantity": "integer",
+      "added_at": "string"
+    }
+  ],
+  "total_items": "integer",
+  "total_price": "float"
+}
+```
+
+##### GET /users/{user_id}/style-preferences
+
+Get the style preferences for a specific user.
+
+Example:
+```bash
+GET /users/user_1/style-preferences
+```
+
+Response format:
+```json
+["string"]
+```
+
+##### GET /users/metadata
+
+Get metadata about all users.
+
+Example:
+```bash
+GET /users/metadata
+```
+
+Response format:
+```json
+{
+  "total_users": "integer",
+  "generated_at": "string",
+  "stats": {
+    "total_purchases": "integer",
+    "total_cart_items": "integer",
+    "total_cart_value": "float"
+  }
+}
+```
+
 ## Development
 
 ### Project Structure
 
 ```
-.
-├── api.py              # FastAPI application
-├── product_database.json  # Product data
-├── images/            # Product images
-├── pyproject.toml     # Poetry dependencies
-├── frontend/         # Next.js frontend application
-│   ├── src/         # Source code
-│   │   ├── app/    # Next.js app directory
-│   │   ├── components/  # React components
-│   │   └── types/  # TypeScript types
-│   ├── public/     # Static assets
-│   └── package.json  # NPM dependencies
-└── README.md       # This file
-```
-
-### Dependencies
-
-#### Backend
-- FastAPI
-- Pydantic
-- Uvicorn
-- Poetry (for dependency management)
-
-#### Frontend
-- Next.js
-- React
-- TailwindCSS
-- Framer Motion
-- Shadcn UI Components
-
-## License
-
-MIT

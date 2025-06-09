@@ -59,6 +59,21 @@ class Metadata(BaseModel):
     stock_stats: Dict[str, float]
     generated_at: str
 
+class User(BaseModel):
+    id: str
+    name: str
+    description: str
+    style_preferences: List[str]
+    image_url: str
+    purchase_history: List[str]
+    cart_status: Dict[str, Any]
+    created_at: str
+
+class UserMetadata(BaseModel):
+    total_users: int
+    generated_at: str
+    stats: Dict[str, Any]
+
 def load_products(db_path: str = "../db/product_database.json", data_field: str = "products"):
     try:
         with open(db_path, "r") as f:
@@ -66,6 +81,15 @@ def load_products(db_path: str = "../db/product_database.json", data_field: str 
             return data[data_field]
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error loading products: {str(e)}")
+
+def load_users(db_path: str = "../db/users_database.json", data_field: str = "users"):
+    """Load users from the database"""
+    try:
+        with open(db_path, "r") as f:
+            data = json.load(f)
+            return data[data_field]
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error loading users: {str(e)}")
 
 @app.get("/products", response_model=List[Product])
 async def get_products(
@@ -98,7 +122,7 @@ async def get_products(
     return products
 
 @app.get("/products/sort/stockouts", response_model=List[Product])
-async def list_products_stockouts():
+async def get_products_stockouts():
     """
     Get all products sorted by stock level (lowest to highest).
     Products with 0 stock will appear first.
@@ -174,4 +198,121 @@ async def get_metadata():
         raise HTTPException(
             status_code=500,
             detail=f"Error generating metadata: {str(e)}"
+        )
+
+
+
+
+@app.get("/users", response_model=List[User])
+async def get_users():
+    """
+    Get all users.
+    
+    Returns:
+    - List of all users
+    """
+    return load_users()
+
+@app.get("/users/{user_id}", response_model=User)
+async def get_user_by_id(user_id: str):
+    """
+    Get a specific user by ID.
+    
+    Parameters:
+    - user_id: The unique identifier of the user
+    
+    Returns:
+    - User details
+    """
+    users = load_users()
+    for user in users:
+        if user_id in (user["id"], user["id"].replace("user_", "")):
+            return user
+    raise HTTPException(status_code=404, detail="User not found")
+
+@app.get("/users/{user_id}/purchases", response_model=List[Product])
+async def get_user_purchases(user_id: str):
+    """
+    Get all products purchased by a specific user.
+    
+    Parameters:
+    - user_id: The unique identifier of the user
+    
+    Returns:
+    - List of purchased products
+    """
+    users = load_users()
+    user = None
+    for u in users:
+        if u["id"] == user_id or u["id"].replace("user_", "") == user_id:
+            user = u
+            break
+    
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    
+    # Get product details for each purchase
+    products = load_products()
+    purchased_products = []
+    for product_id in user["purchase_history"]:
+        for product in products:
+            if product["id"] == product_id:
+                purchased_products.append(product)
+                break
+    
+    return purchased_products
+
+@app.get("/users/{user_id}/cart", response_model=Dict[str, Any])
+async def get_user_cart(user_id: str):
+    """
+    Get the current cart status for a specific user.
+    
+    Parameters:
+    - user_id: The unique identifier of the user
+    
+    Returns:
+    - User's cart status
+    """
+    users = load_users()
+    for user in users:
+        if user["id"] == user_id or user["id"].replace("user_", "") == user_id:
+            return user["cart_status"]
+    raise HTTPException(status_code=404, detail="User not found")
+
+@app.get("/users/{user_id}/style-preferences", response_model=List[str])
+async def get_user_style_preferences(user_id: str):
+    """
+    Get the style preferences for a specific user.
+    
+    Parameters:
+    - user_id: The unique identifier of the user
+    
+    Returns:
+    - List of user's style preferences
+    """
+    users = load_users()
+    for user in users:
+        if user["id"] == user_id or user["id"].replace("user_", "") == user_id:
+            return user["style_preferences"]
+    raise HTTPException(status_code=404, detail="User not found")
+
+@app.get("/users/metadata", response_model=UserMetadata)
+async def get_users_metadata():
+    """
+    Get metadata about the users including:
+    - Total number of users
+    - Generation timestamp
+    - Statistics about purchases and cart items
+    
+    Returns:
+    - Users metadata statistics
+    """
+    try:
+        with open("../db/users_database.json", "r") as f:
+            data = json.load(f)
+            return data["metadata"]
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error loading users metadata: {str(e)}"
         )
