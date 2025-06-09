@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashnary API Documentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">Fashnary API</h1>
+            <p class="text-gray-600">API for managing e-commerce products and users</p>
+        </header>
+
+        <!-- API Documentation Links -->
+        <section class="my-8 bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">API Documentation</h2>
+            <div class="space-y-4">
+                <a href="/docs" class="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                    <h3 class="font-medium text-blue-700">Swagger UI Documentation</h3>
+                    <p class="text-sm text-blue-600">Interactive API documentation with Swagger UI</p>
+                </a>
+                <a href="/redoc" class="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                    <h3 class="font-medium text-blue-700">ReDoc Documentation</h3>
+                    <p class="text-sm text-blue-600">Alternative API documentation with ReDoc</p>
+                </a>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Products Section -->
+            <section class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Product Endpoints</h2>
+                <div class="space-y-4">
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /products</h3>
+                        <p class="text-sm text-gray-600">Get all products with optional sorting</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /products/sort/stockouts</h3>
+                        <p class="text-sm text-gray-600">Get products sorted by stock level</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /products/{product_id}</h3>
+                        <p class="text-sm text-gray-600">Get specific product details</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /products/{product_id}/display</h3>
+                        <p class="text-sm text-gray-600">Get product with formatted display data</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /metadata/products</h3>
+                        <p class="text-sm text-gray-600">Get product metadata and statistics</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Users Section -->
+            <section class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">User Endpoints</h2>
+                <div class="space-y-4">
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /users</h3>
+                        <p class="text-sm text-gray-600">Get all users</p>
+                    </div>
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /users/{user_id}</h3>
+                        <p class="text-sm text-gray-600">Get specific user details</p>
+                    </div>
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /users/{user_id}/purchases</h3>
+                        <p class="text-sm text-gray-600">Get user's purchase history</p>
+                    </div>
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /users/{user_id}/cart</h3>
+                        <p class="text-sm text-gray-600">Get user's current cart</p>
+                    </div>
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /users/{user_id}/style-preferences</h3>
+                        <p class="text-sm text-gray-600">Get user's style preferences</p>
+                    </div>
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h3 class="font-medium text-gray-700">GET /metadata/users</h3>
+                        <p class="text-sm text-gray-600">Get user metadata and statistics</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Helper Functions Section -->
+        <section class="mt-8 bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Helper Functions</h2>
+            <div class="space-y-4">
+                <div class="border-l-4 border-purple-500 pl-4">
+                    <h3 class="font-medium text-gray-700">load_products()</h3>
+                    <p class="text-sm text-gray-600">Load products from database</p>
+                </div>
+                <div class="border-l-4 border-purple-500 pl-4">
+                    <h3 class="font-medium text-gray-700">load_users()</h3>
+                    <p class="text-sm text-gray-600">Load users from database</p>
+                </div>
+                <div class="border-l-4 border-purple-500 pl-4">
+                    <h3 class="font-medium text-gray-700">format_product_display()</h3>
+                    <p class="text-sm text-gray-600">Format product data for display</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

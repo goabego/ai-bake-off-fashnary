@@ -1,5 +1,8 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
 import json
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel
@@ -7,6 +10,7 @@ from enum import Enum
 from product_utils import format_product_display
 from collections import defaultdict
 from datetime import datetime
+import os
 
 app = FastAPI(
     title="Fashnary API",
@@ -22,6 +26,19 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Mount static files
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+# Templates
+templates = Jinja2Templates(directory="templates")
+
+@app.get("/", response_class=HTMLResponse)
+async def root(request: Request):
+    """
+    Landing page for the API documentation
+    """
+    return templates.TemplateResponse("index.html", {"request": request})
 
 class SortOrder(str, Enum):
     ASC = "asc"
@@ -199,9 +216,6 @@ async def get_metadata():
             status_code=500,
             detail=f"Error generating metadata: {str(e)}"
         )
-
-
-
 
 @app.get("/users", response_model=List[User])
 async def get_users():
