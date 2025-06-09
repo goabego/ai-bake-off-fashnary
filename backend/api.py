@@ -174,7 +174,7 @@ async def get_product_display(product_id: str):
             return formatted_product
     raise HTTPException(status_code=404, detail="Product not found")
 
-@app.get("/metadata", response_model=Metadata)
+@app.get("/metadata/products", response_model=Metadata)
 async def get_metadata():
     """
     Get metadata about the products including:
@@ -296,7 +296,7 @@ async def get_user_style_preferences(user_id: str):
             return user["style_preferences"]
     raise HTTPException(status_code=404, detail="User not found")
 
-@app.get("/users/metadata", response_model=UserMetadata)
+@app.get("/metadata/users", response_model=UserMetadata)
 async def get_users_metadata():
     """
     Get metadata about the users including:
@@ -308,9 +308,8 @@ async def get_users_metadata():
     - Users metadata statistics
     """
     try:
-        with open("../db/users_database.json", "r") as f:
-            data = json.load(f)
-            return data["metadata"]
+        data = load_users(data_field="metadata");
+        return data
     except Exception as e:
         raise HTTPException(
             status_code=500,

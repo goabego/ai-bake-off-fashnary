@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "1",
-      "image_path": "images/tshirt_adk_3.jpg",
+      "image_path": "images/products/tshirt_adk_3.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "any color",
@@ -14,7 +14,7 @@
     },
     {
       "id": "2",
-      "image_path": "images/tshirt_food_2.jpg",
+      "image_path": "images/products/tshirt_food_2.jpg",
       "description": "cute food illustrations on a yellow t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "yellow",
@@ -26,7 +26,7 @@
     },
     {
       "id": "3",
-      "image_path": "images/longsleeve_contemporary_4.jpg",
+      "image_path": "images/products/longsleeve_contemporary_4.jpg",
       "description": "contemporary art pattern on a navy long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "navy",
@@ -38,7 +38,7 @@
     },
     {
       "id": "4",
-      "image_path": "images/tshirt_art_3.jpg",
+      "image_path": "images/products/tshirt_art_3.jpg",
       "description": "abstract geometric patterns on a cream t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "cream",
@@ -50,7 +50,7 @@
     },
     {
       "id": "5",
-      "image_path": "images/sweater_abstract_3.jpg",
+      "image_path": "images/products/sweater_abstract_3.jpg",
       "description": "abstract knit design on a burgundy sweater - Variant 3",
       "type": "sweater",
       "color": "burgundy",
@@ -62,7 +62,7 @@
     },
     {
       "id": "6",
-      "image_path": "images/sweater_abstract_2.jpg",
+      "image_path": "images/products/sweater_abstract_2.jpg",
       "description": "abstract knit design on a burgundy sweater - Variant 2",
       "type": "sweater",
       "color": "burgundy",
@@ -74,7 +74,7 @@
     },
     {
       "id": "7",
-      "image_path": "images/tshirt_art_2.jpg",
+      "image_path": "images/products/tshirt_art_2.jpg",
       "description": "abstract geometric patterns on a cream t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "cream",
@@ -86,7 +86,7 @@
     },
     {
       "id": "8",
-      "image_path": "images/longsleeve_artistic_4.jpg",
+      "image_path": "images/products/longsleeve_artistic_4.jpg",
       "description": "artistic brush strokes on a cream long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "cream",
@@ -98,7 +98,7 @@
     },
     {
       "id": "9",
-      "image_path": "images/tshirt_food_3.jpg",
+      "image_path": "images/products/tshirt_food_3.jpg",
       "description": "cute food illustrations on a yellow t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "yellow",
@@ -110,7 +110,7 @@
     },
     {
       "id": "10",
-      "image_path": "images/tshirt_typography_1.jpg",
+      "image_path": "images/products/tshirt_typography_1.jpg",
       "description": "creative typography design on a black t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "black",
@@ -122,7 +122,7 @@
     },
     {
       "id": "11",
-      "image_path": "images/tshirt_minimal_1.jpg",
+      "image_path": "images/products/tshirt_minimal_1.jpg",
       "description": "minimalist line art on a gray t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "gray",
@@ -134,7 +134,7 @@
     },
     {
       "id": "12",
-      "image_path": "images/tshirt_space_1.jpg",
+      "image_path": "images/products/tshirt_space_1.jpg",
       "description": "space theme with planets and stars on a black t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "black",
@@ -146,7 +146,7 @@
     },
     {
       "id": "13",
-      "image_path": "images/tshirt_music_1.jpg",
+      "image_path": "images/products/tshirt_music_1.jpg",
       "description": "musical notes and instruments on a white t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "white",
@@ -158,7 +158,7 @@
     },
     {
       "id": "14",
-      "image_path": "images/tshirt_adk_2.jpg",
+      "image_path": "images/products/tshirt_adk_2.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "any color",
@@ -170,7 +170,7 @@
     },
     {
       "id": "15",
-      "image_path": "images/tshirt_science_4.jpg",
+      "image_path": "images/products/tshirt_science_4.jpg",
       "description": "scientific formulas and lab equipment on a white t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "white",
@@ -182,7 +182,7 @@
     },
     {
       "id": "16",
-      "image_path": "images/tshirt_space_3.jpg",
+      "image_path": "images/products/tshirt_space_3.jpg",
       "description": "space theme with planets and stars on a black t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "black",
@@ -194,7 +194,7 @@
     },
     {
       "id": "17",
-      "image_path": "images/tshirt_music_3.jpg",
+      "image_path": "images/products/tshirt_music_3.jpg",
       "description": "musical notes and instruments on a white t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "white",
@@ -206,7 +206,7 @@
     },
     {
       "id": "18",
-      "image_path": "images/tshirt_typography_3.jpg",
+      "image_path": "images/products/tshirt_typography_3.jpg",
       "description": "creative typography design on a black t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "black",
@@ -218,7 +218,7 @@
     },
     {
       "id": "19",
-      "image_path": "images/tshirt_minimal_3.jpg",
+      "image_path": "images/products/tshirt_minimal_3.jpg",
       "description": "minimalist line art on a gray t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "gray",
@@ -230,7 +230,7 @@
     },
     {
       "id": "20",
-      "image_path": "images/tshirt_food_1.jpg",
+      "image_path": "images/products/tshirt_food_1.jpg",
       "description": "cute food illustrations on a yellow t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "yellow",
@@ -242,7 +242,7 @@
     },
     {
       "id": "21",
-      "image_path": "images/tshirt_underwater_4.jpg",
+      "image_path": "images/products/tshirt_underwater_4.jpg",
       "description": "marine life and coral reefs on a ocean blue t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "ocean blue",
@@ -254,7 +254,7 @@
     },
     {
       "id": "22",
-      "image_path": "images/longsleeve_striped_4.jpg",
+      "image_path": "images/products/longsleeve_striped_4.jpg",
       "description": "classic striped pattern on a gray long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "gray",
@@ -266,7 +266,7 @@
     },
     {
       "id": "23",
-      "image_path": "images/tshirt_art_1.jpg",
+      "image_path": "images/products/tshirt_art_1.jpg",
       "description": "abstract geometric patterns on a cream t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "cream",
@@ -278,7 +278,7 @@
     },
     {
       "id": "24",
-      "image_path": "images/sweater_abstract_1.jpg",
+      "image_path": "images/products/sweater_abstract_1.jpg",
       "description": "abstract knit design on a burgundy sweater - Variant 1",
       "type": "sweater",
       "color": "burgundy",
@@ -290,7 +290,7 @@
     },
     {
       "id": "25",
-      "image_path": "images/dress_modern_4.jpg",
+      "image_path": "images/products/dress_modern_4.jpg",
       "description": "contemporary abstract pattern on a black dress - Variant 4",
       "type": "dress",
       "color": "black",
@@ -302,7 +302,7 @@
     },
     {
       "id": "26",
-      "image_path": "images/tshirt_minimal_2.jpg",
+      "image_path": "images/products/tshirt_minimal_2.jpg",
       "description": "minimalist line art on a gray t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "gray",
@@ -314,7 +314,7 @@
     },
     {
       "id": "27",
-      "image_path": "images/tshirt_typography_2.jpg",
+      "image_path": "images/products/tshirt_typography_2.jpg",
       "description": "creative typography design on a black t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "black",
@@ -326,7 +326,7 @@
     },
     {
       "id": "28",
-      "image_path": "images/tshirt_music_2.jpg",
+      "image_path": "images/products/tshirt_music_2.jpg",
       "description": "musical notes and instruments on a white t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "white",
@@ -338,7 +338,7 @@
     },
     {
       "id": "29",
-      "image_path": "images/tshirt_adk_1.jpg",
+      "image_path": "images/products/tshirt_adk_1.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "any color",
@@ -350,7 +350,7 @@
     },
     {
       "id": "30",
-      "image_path": "images/tshirt_fantasy_4.jpg",
+      "image_path": "images/products/tshirt_fantasy_4.jpg",
       "description": "fantasy creatures and magical elements on a purple t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "purple",
@@ -362,7 +362,7 @@
     },
     {
       "id": "31",
-      "image_path": "images/tshirt_space_2.jpg",
+      "image_path": "images/products/tshirt_space_2.jpg",
       "description": "space theme with planets and stars on a black t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "black",
@@ -374,7 +374,7 @@
     },
     {
       "id": "32",
-      "image_path": "images/tshirt_science_3.jpg",
+      "image_path": "images/products/tshirt_science_3.jpg",
       "description": "scientific formulas and lab equipment on a white t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "white",
@@ -386,7 +386,7 @@
     },
     {
       "id": "33",
-      "image_path": "images/longsleeve_contemporary_2.jpg",
+      "image_path": "images/products/longsleeve_contemporary_2.jpg",
       "description": "contemporary art pattern on a navy long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "navy",
@@ -398,7 +398,7 @@
     },
     {
       "id": "34",
-      "image_path": "images/tshirt_food_4.jpg",
+      "image_path": "images/products/tshirt_food_4.jpg",
       "description": "cute food illustrations on a yellow t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "yellow",
@@ -410,7 +410,7 @@
     },
     {
       "id": "35",
-      "image_path": "images/tshirt_underwater_1.jpg",
+      "image_path": "images/products/tshirt_underwater_1.jpg",
       "description": "marine life and coral reefs on a ocean blue t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "ocean blue",
@@ -422,7 +422,7 @@
     },
     {
       "id": "36",
-      "image_path": "images/longsleeve_artistic_3.jpg",
+      "image_path": "images/products/longsleeve_artistic_3.jpg",
       "description": "artistic brush strokes on a cream long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "cream",
@@ -434,7 +434,7 @@
     },
     {
       "id": "37",
-      "image_path": "images/longsleeve_striped_1.jpg",
+      "image_path": "images/products/longsleeve_striped_1.jpg",
       "description": "classic striped pattern on a gray long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "gray",
@@ -446,7 +446,7 @@
     },
     {
       "id": "38",
-      "image_path": "images/tshirt_art_4.jpg",
+      "image_path": "images/products/tshirt_art_4.jpg",
       "description": "abstract geometric patterns on a cream t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "cream",
@@ -458,7 +458,7 @@
     },
     {
       "id": "39",
-      "image_path": "images/sweater_abstract_4.jpg",
+      "image_path": "images/products/sweater_abstract_4.jpg",
       "description": "abstract knit design on a burgundy sweater - Variant 4",
       "type": "sweater",
       "color": "burgundy",
@@ -470,7 +470,7 @@
     },
     {
       "id": "40",
-      "image_path": "images/longsleeve_artistic_2.jpg",
+      "image_path": "images/products/longsleeve_artistic_2.jpg",
       "description": "artistic brush strokes on a cream long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "cream",
@@ -482,7 +482,7 @@
     },
     {
       "id": "41",
-      "image_path": "images/dress_modern_1.jpg",
+      "image_path": "images/products/dress_modern_1.jpg",
       "description": "contemporary abstract pattern on a black dress - Variant 1",
       "type": "dress",
       "color": "black",
@@ -494,7 +494,7 @@
     },
     {
       "id": "42",
-      "image_path": "images/longsleeve_contemporary_3.jpg",
+      "image_path": "images/products/longsleeve_contemporary_3.jpg",
       "description": "contemporary art pattern on a navy long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "navy",
@@ -506,7 +506,7 @@
     },
     {
       "id": "43",
-      "image_path": "images/tshirt_fantasy_1.jpg",
+      "image_path": "images/products/tshirt_fantasy_1.jpg",
       "description": "fantasy creatures and magical elements on a purple t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "purple",
@@ -518,7 +518,7 @@
     },
     {
       "id": "44",
-      "image_path": "images/tshirt_adk_4.jpg",
+      "image_path": "images/products/tshirt_adk_4.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "any color",
@@ -530,7 +530,7 @@
     },
     {
       "id": "45",
-      "image_path": "images/tshirt_science_2.jpg",
+      "image_path": "images/products/tshirt_science_2.jpg",
       "description": "scientific formulas and lab equipment on a white t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "white",
@@ -542,7 +542,7 @@
     },
     {
       "id": "46",
-      "image_path": "images/tshirt_fantasy_3.jpg",
+      "image_path": "images/products/tshirt_fantasy_3.jpg",
       "description": "fantasy creatures and magical elements on a purple t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "purple",
@@ -554,7 +554,7 @@
     },
     {
       "id": "47",
-      "image_path": "images/longsleeve_contemporary_1.jpg",
+      "image_path": "images/products/longsleeve_contemporary_1.jpg",
       "description": "contemporary art pattern on a navy long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "navy",
@@ -566,7 +566,7 @@
     },
     {
       "id": "48",
-      "image_path": "images/dress_modern_3.jpg",
+      "image_path": "images/products/dress_modern_3.jpg",
       "description": "contemporary abstract pattern on a black dress - Variant 3",
       "type": "dress",
       "color": "black",
@@ -578,7 +578,7 @@
     },
     {
       "id": "49",
-      "image_path": "images/tshirt_underwater_2.jpg",
+      "image_path": "images/products/tshirt_underwater_2.jpg",
       "description": "marine life and coral reefs on a ocean blue t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "ocean blue",
@@ -590,7 +590,7 @@
     },
     {
       "id": "50",
-      "image_path": "images/longsleeve_striped_2.jpg",
+      "image_path": "images/products/longsleeve_striped_2.jpg",
       "description": "classic striped pattern on a gray long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "gray",
@@ -602,7 +602,7 @@
     },
     {
       "id": "51",
-      "image_path": "images/longsleeve_striped_3.jpg",
+      "image_path": "images/products/longsleeve_striped_3.jpg",
       "description": "classic striped pattern on a gray long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "gray",
@@ -614,7 +614,7 @@
     },
     {
       "id": "52",
-      "image_path": "images/longsleeve_artistic_1.jpg",
+      "image_path": "images/products/longsleeve_artistic_1.jpg",
       "description": "artistic brush strokes on a cream long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "cream",
@@ -626,7 +626,7 @@
     },
     {
       "id": "53",
-      "image_path": "images/tshirt_underwater_3.jpg",
+      "image_path": "images/products/tshirt_underwater_3.jpg",
       "description": "marine life and coral reefs on a ocean blue t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "ocean blue",
@@ -638,7 +638,7 @@
     },
     {
       "id": "54",
-      "image_path": "images/dress_modern_2.jpg",
+      "image_path": "images/products/dress_modern_2.jpg",
       "description": "contemporary abstract pattern on a black dress - Variant 2",
       "type": "dress",
       "color": "black",
@@ -650,7 +650,7 @@
     },
     {
       "id": "55",
-      "image_path": "images/tshirt_typography_4.jpg",
+      "image_path": "images/products/tshirt_typography_4.jpg",
       "description": "creative typography design on a black t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "black",
@@ -662,7 +662,7 @@
     },
     {
       "id": "56",
-      "image_path": "images/tshirt_minimal_4.jpg",
+      "image_path": "images/products/tshirt_minimal_4.jpg",
       "description": "minimalist line art on a gray t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "gray",
@@ -674,7 +674,7 @@
     },
     {
       "id": "57",
-      "image_path": "images/tshirt_space_4.jpg",
+      "image_path": "images/products/tshirt_space_4.jpg",
       "description": "space theme with planets and stars on a black t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "black",
@@ -686,7 +686,7 @@
     },
     {
       "id": "58",
-      "image_path": "images/tshirt_music_4.jpg",
+      "image_path": "images/products/tshirt_music_4.jpg",
       "description": "musical notes and instruments on a white t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "white",
@@ -698,7 +698,7 @@
     },
     {
       "id": "59",
-      "image_path": "images/tshirt_fantasy_2.jpg",
+      "image_path": "images/products/tshirt_fantasy_2.jpg",
       "description": "fantasy creatures and magical elements on a purple t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "purple",
@@ -710,7 +710,7 @@
     },
     {
       "id": "60",
-      "image_path": "images/tshirt_science_1.jpg",
+      "image_path": "images/products/tshirt_science_1.jpg",
       "description": "scientific formulas and lab equipment on a white t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "white",
@@ -722,7 +722,7 @@
     },
     {
       "id": "61",
-      "image_path": "images/longsleeve_ethnic_4.jpg",
+      "image_path": "images/products/longsleeve_ethnic_4.jpg",
       "description": "ethnic inspired design on a terracotta long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "terracotta",
@@ -734,7 +734,7 @@
     },
     {
       "id": "62",
-      "image_path": "images/longsleeve_minimal_1.jpg",
+      "image_path": "images/products/longsleeve_minimal_1.jpg",
       "description": "minimalist design on a black long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "black",
@@ -746,7 +746,7 @@
     },
     {
       "id": "63",
-      "image_path": "images/tshirt_retro_1.jpg",
+      "image_path": "images/products/tshirt_retro_1.jpg",
       "description": "80s retro wave design on a vintage blue t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "vintage blue",
@@ -758,7 +758,7 @@
     },
     {
       "id": "64",
-      "image_path": "images/tshirt_sports_4.jpg",
+      "image_path": "images/products/tshirt_sports_4.jpg",
       "description": "sports equipment and dynamic action on a red t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "red",
@@ -770,7 +770,7 @@
     },
     {
       "id": "65",
-      "image_path": "images/tshirt_geometric_4.jpg",
+      "image_path": "images/products/tshirt_geometric_4.jpg",
       "description": "modern geometric patterns on a white t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "white",
@@ -782,7 +782,7 @@
     },
     {
       "id": "66",
-      "image_path": "images/longsleeve_classic_1.jpg",
+      "image_path": "images/products/longsleeve_classic_1.jpg",
       "description": "classic pattern design on a white long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "white",
@@ -794,7 +794,7 @@
     },
     {
       "id": "67",
-      "image_path": "images/tshirt_travel_1.jpg",
+      "image_path": "images/products/tshirt_travel_1.jpg",
       "description": "world map and travel icons on a beige t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "beige",
@@ -806,7 +806,7 @@
     },
     {
       "id": "68",
-      "image_path": "images/sweater_plaid_4.jpg",
+      "image_path": "images/products/sweater_plaid_4.jpg",
       "description": "modern plaid knit pattern on a navy sweater - Variant 4",
       "type": "sweater",
       "color": "navy",
@@ -818,7 +818,7 @@
     },
     {
       "id": "69",
-      "image_path": "images/tshirt_urban_4.jpg",
+      "image_path": "images/products/tshirt_urban_4.jpg",
       "description": "city skyline at night on a black t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "black",
@@ -830,7 +830,7 @@
     },
     {
       "id": "70",
-      "image_path": "images/longsleeve_abstract_1.jpg",
+      "image_path": "images/products/longsleeve_abstract_1.jpg",
       "description": "abstract art pattern on a burgundy long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "burgundy",
@@ -842,7 +842,7 @@
     },
     {
       "id": "71",
-      "image_path": "images/longsleeve_abstract_3.jpg",
+      "image_path": "images/products/longsleeve_abstract_3.jpg",
       "description": "abstract art pattern on a burgundy long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "burgundy",
@@ -854,7 +854,7 @@
     },
     {
       "id": "72",
-      "image_path": "images/tshirt_retro_2.jpg",
+      "image_path": "images/products/tshirt_retro_2.jpg",
       "description": "80s retro wave design on a vintage blue t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "vintage blue",
@@ -866,7 +866,7 @@
     },
     {
       "id": "73",
-      "image_path": "images/longsleeve_minimal_2.jpg",
+      "image_path": "images/products/longsleeve_minimal_2.jpg",
       "description": "minimalist design on a black long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "black",
@@ -878,7 +878,7 @@
     },
     {
       "id": "74",
-      "image_path": "images/tshirt_zen_4.jpg",
+      "image_path": "images/products/tshirt_zen_4.jpg",
       "description": "zen garden and meditation symbols on a sage green t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "sage green",
@@ -890,7 +890,7 @@
     },
     {
       "id": "75",
-      "image_path": "images/tshirt_travel_3.jpg",
+      "image_path": "images/products/tshirt_travel_3.jpg",
       "description": "world map and travel icons on a beige t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "beige",
@@ -902,7 +902,7 @@
     },
     {
       "id": "76",
-      "image_path": "images/longsleeve_classic_3.jpg",
+      "image_path": "images/products/longsleeve_classic_3.jpg",
       "description": "classic pattern design on a white long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "white",
@@ -914,7 +914,7 @@
     },
     {
       "id": "77",
-      "image_path": "images/tshirt_travel_2.jpg",
+      "image_path": "images/products/tshirt_travel_2.jpg",
       "description": "world map and travel icons on a beige t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "beige",
@@ -926,7 +926,7 @@
     },
     {
       "id": "78",
-      "image_path": "images/longsleeve_classic_2.jpg",
+      "image_path": "images/products/longsleeve_classic_2.jpg",
       "description": "classic pattern design on a white long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "white",
@@ -938,7 +938,7 @@
     },
     {
       "id": "79",
-      "image_path": "images/longsleeve_minimal_3.jpg",
+      "image_path": "images/products/longsleeve_minimal_3.jpg",
       "description": "minimalist design on a black long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "black",
@@ -950,7 +950,7 @@
     },
     {
       "id": "80",
-      "image_path": "images/tshirt_retro_3.jpg",
+      "image_path": "images/products/tshirt_retro_3.jpg",
       "description": "80s retro wave design on a vintage blue t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "vintage blue",
@@ -962,7 +962,7 @@
     },
     {
       "id": "81",
-      "image_path": "images/dress_adk_4.jpg",
+      "image_path": "images/products/dress_adk_4.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color dress - Variant 4",
       "type": "dress",
       "color": "any color",
@@ -974,7 +974,7 @@
     },
     {
       "id": "82",
-      "image_path": "images/longsleeve_abstract_2.jpg",
+      "image_path": "images/products/longsleeve_abstract_2.jpg",
       "description": "abstract art pattern on a burgundy long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "burgundy",
@@ -986,7 +986,7 @@
     },
     {
       "id": "83",
-      "image_path": "images/tshirt_urban_3.jpg",
+      "image_path": "images/products/tshirt_urban_3.jpg",
       "description": "city skyline at night on a black t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "black",
@@ -998,7 +998,7 @@
     },
     {
       "id": "84",
-      "image_path": "images/longsleeve_ethnic_2.jpg",
+      "image_path": "images/products/longsleeve_ethnic_2.jpg",
       "description": "ethnic inspired design on a terracotta long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "terracotta",
@@ -1010,7 +1010,7 @@
     },
     {
       "id": "85",
-      "image_path": "images/sweater_plaid_3.jpg",
+      "image_path": "images/products/sweater_plaid_3.jpg",
       "description": "modern plaid knit pattern on a navy sweater - Variant 3",
       "type": "sweater",
       "color": "navy",
@@ -1022,7 +1022,7 @@
     },
     {
       "id": "86",
-      "image_path": "images/tshirt_geometric_2.jpg",
+      "image_path": "images/products/tshirt_geometric_2.jpg",
       "description": "modern geometric patterns on a white t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "white",
@@ -1034,7 +1034,7 @@
     },
     {
       "id": "87",
-      "image_path": "images/tshirt_sports_2.jpg",
+      "image_path": "images/products/tshirt_sports_2.jpg",
       "description": "sports equipment and dynamic action on a red t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "red",
@@ -1046,7 +1046,7 @@
     },
     {
       "id": "88",
-      "image_path": "images/tshirt_zen_1.jpg",
+      "image_path": "images/products/tshirt_zen_1.jpg",
       "description": "zen garden and meditation symbols on a sage green t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "sage green",
@@ -1058,7 +1058,7 @@
     },
     {
       "id": "89",
-      "image_path": "images/tshirt_sports_3.jpg",
+      "image_path": "images/products/tshirt_sports_3.jpg",
       "description": "sports equipment and dynamic action on a red t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "red",
@@ -1070,7 +1070,7 @@
     },
     {
       "id": "90",
-      "image_path": "images/tshirt_geometric_3.jpg",
+      "image_path": "images/products/tshirt_geometric_3.jpg",
       "description": "modern geometric patterns on a white t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "white",
@@ -1082,7 +1082,7 @@
     },
     {
       "id": "91",
-      "image_path": "images/sweater_plaid_2.jpg",
+      "image_path": "images/products/sweater_plaid_2.jpg",
       "description": "modern plaid knit pattern on a navy sweater - Variant 2",
       "type": "sweater",
       "color": "navy",
@@ -1094,7 +1094,7 @@
     },
     {
       "id": "92",
-      "image_path": "images/longsleeve_ethnic_3.jpg",
+      "image_path": "images/products/longsleeve_ethnic_3.jpg",
       "description": "ethnic inspired design on a terracotta long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "terracotta",
@@ -1106,7 +1106,7 @@
     },
     {
       "id": "93",
-      "image_path": "images/tshirt_urban_2.jpg",
+      "image_path": "images/products/tshirt_urban_2.jpg",
       "description": "city skyline at night on a black t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "black",
@@ -1118,7 +1118,7 @@
     },
     {
       "id": "94",
-      "image_path": "images/dress_adk_1.jpg",
+      "image_path": "images/products/dress_adk_1.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color dress - Variant 1",
       "type": "dress",
       "color": "any color",
@@ -1130,7 +1130,7 @@
     },
     {
       "id": "95",
-      "image_path": "images/dress_adk_3.jpg",
+      "image_path": "images/products/dress_adk_3.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color dress - Variant 3",
       "type": "dress",
       "color": "any color",
@@ -1142,7 +1142,7 @@
     },
     {
       "id": "96",
-      "image_path": "images/longsleeve_minimal_4.jpg",
+      "image_path": "images/products/longsleeve_minimal_4.jpg",
       "description": "minimalist design on a black long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "black",
@@ -1154,7 +1154,7 @@
     },
     {
       "id": "97",
-      "image_path": "images/tshirt_retro_4.jpg",
+      "image_path": "images/products/tshirt_retro_4.jpg",
       "description": "80s retro wave design on a vintage blue t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "vintage blue",
@@ -1166,7 +1166,7 @@
     },
     {
       "id": "98",
-      "image_path": "images/longsleeve_ethnic_1.jpg",
+      "image_path": "images/products/longsleeve_ethnic_1.jpg",
       "description": "ethnic inspired design on a terracotta long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "terracotta",
@@ -1178,7 +1178,7 @@
     },
     {
       "id": "99",
-      "image_path": "images/tshirt_sports_1.jpg",
+      "image_path": "images/products/tshirt_sports_1.jpg",
       "description": "sports equipment and dynamic action on a red t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "red",
@@ -1190,7 +1190,7 @@
     },
     {
       "id": "100",
-      "image_path": "images/tshirt_zen_2.jpg",
+      "image_path": "images/products/tshirt_zen_2.jpg",
       "description": "zen garden and meditation symbols on a sage green t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "sage green",
@@ -1202,7 +1202,7 @@
     },
     {
       "id": "101",
-      "image_path": "images/tshirt_geometric_1.jpg",
+      "image_path": "images/products/tshirt_geometric_1.jpg",
       "description": "modern geometric patterns on a white t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "white",
@@ -1214,7 +1214,7 @@
     },
     {
       "id": "102",
-      "image_path": "images/tshirt_travel_4.jpg",
+      "image_path": "images/products/tshirt_travel_4.jpg",
       "description": "world map and travel icons on a beige t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "beige",
@@ -1226,7 +1226,7 @@
     },
     {
       "id": "103",
-      "image_path": "images/longsleeve_classic_4.jpg",
+      "image_path": "images/products/longsleeve_classic_4.jpg",
       "description": "classic pattern design on a white long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "white",
@@ -1238,7 +1238,7 @@
     },
     {
       "id": "104",
-      "image_path": "images/tshirt_zen_3.jpg",
+      "image_path": "images/products/tshirt_zen_3.jpg",
       "description": "zen garden and meditation symbols on a sage green t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "sage green",
@@ -1250,7 +1250,7 @@
     },
     {
       "id": "105",
-      "image_path": "images/sweater_plaid_1.jpg",
+      "image_path": "images/products/sweater_plaid_1.jpg",
       "description": "modern plaid knit pattern on a navy sweater - Variant 1",
       "type": "sweater",
       "color": "navy",
@@ -1262,7 +1262,7 @@
     },
     {
       "id": "106",
-      "image_path": "images/tshirt_urban_1.jpg",
+      "image_path": "images/products/tshirt_urban_1.jpg",
       "description": "city skyline at night on a black t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "black",
@@ -1274,7 +1274,7 @@
     },
     {
       "id": "107",
-      "image_path": "images/dress_adk_2.jpg",
+      "image_path": "images/products/dress_adk_2.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color dress - Variant 2",
       "type": "dress",
       "color": "any color",
@@ -1286,7 +1286,7 @@
     },
     {
       "id": "108",
-      "image_path": "images/longsleeve_abstract_4.jpg",
+      "image_path": "images/products/longsleeve_abstract_4.jpg",
       "description": "abstract art pattern on a burgundy long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "burgundy",
@@ -1298,7 +1298,7 @@
     },
     {
       "id": "109",
-      "image_path": "images/sweater_adk_2.jpg",
+      "image_path": "images/products/sweater_adk_2.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color sweater - Variant 2",
       "type": "sweater",
       "color": "any color",
@@ -1310,7 +1310,7 @@
     },
     {
       "id": "110",
-      "image_path": "images/dress_geometric_3.jpg",
+      "image_path": "images/products/dress_geometric_3.jpg",
       "description": "modern geometric print on a black dress - Variant 3",
       "type": "dress",
       "color": "black",
@@ -1322,7 +1322,7 @@
     },
     {
       "id": "111",
-      "image_path": "images/dress_minimal_3.jpg",
+      "image_path": "images/products/dress_minimal_3.jpg",
       "description": "minimalist line pattern on a gray dress - Variant 3",
       "type": "dress",
       "color": "gray",
@@ -1334,7 +1334,7 @@
     },
     {
       "id": "112",
-      "image_path": "images/dress_artistic_1.jpg",
+      "image_path": "images/products/dress_artistic_1.jpg",
       "description": "artistic brush stroke pattern on a burgundy dress - Variant 1",
       "type": "dress",
       "color": "burgundy",
@@ -1346,7 +1346,7 @@
     },
     {
       "id": "113",
-      "image_path": "images/sweater_argyle_1.jpg",
+      "image_path": "images/products/sweater_argyle_1.jpg",
       "description": "modern argyle pattern on a charcoal sweater - Variant 1",
       "type": "sweater",
       "color": "charcoal",
@@ -1358,7 +1358,7 @@
     },
     {
       "id": "114",
-      "image_path": "images/tshirt_abstract_2.jpg",
+      "image_path": "images/products/tshirt_abstract_2.jpg",
       "description": "abstract watercolor patterns on a mint green t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "mint green",
@@ -1370,7 +1370,7 @@
     },
     {
       "id": "115",
-      "image_path": "images/dress_floral_1.jpg",
+      "image_path": "images/products/dress_floral_1.jpg",
       "description": "delicate floral pattern on a pastel blue dress - Variant 1",
       "type": "dress",
       "color": "pastel blue",
@@ -1382,7 +1382,7 @@
     },
     {
       "id": "116",
-      "image_path": "images/tshirt_abstract_3.jpg",
+      "image_path": "images/products/tshirt_abstract_3.jpg",
       "description": "abstract watercolor patterns on a mint green t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "mint green",
@@ -1394,7 +1394,7 @@
     },
     {
       "id": "117",
-      "image_path": "images/longsleeve_marble_1.jpg",
+      "image_path": "images/products/longsleeve_marble_1.jpg",
       "description": "marble effect pattern on a white long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "white",
@@ -1406,7 +1406,7 @@
     },
     {
       "id": "118",
-      "image_path": "images/tshirt_nature_4.jpg",
+      "image_path": "images/products/tshirt_nature_4.jpg",
       "description": "mountain landscape with trees on a light green t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "light green",
@@ -1418,7 +1418,7 @@
     },
     {
       "id": "119",
-      "image_path": "images/sweater_geometric_1.jpg",
+      "image_path": "images/products/sweater_geometric_1.jpg",
       "description": "modern geometric knit pattern on a navy sweater - Variant 1",
       "type": "sweater",
       "color": "navy",
@@ -1430,7 +1430,7 @@
     },
     {
       "id": "120",
-      "image_path": "images/longsleeve_modern_1.jpg",
+      "image_path": "images/products/longsleeve_modern_1.jpg",
       "description": "modern abstract pattern on a sage green long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "sage green",
@@ -1442,7 +1442,7 @@
     },
     {
       "id": "121",
-      "image_path": "images/dress_minimal_2.jpg",
+      "image_path": "images/products/dress_minimal_2.jpg",
       "description": "minimalist line pattern on a gray dress - Variant 2",
       "type": "dress",
       "color": "gray",
@@ -1454,7 +1454,7 @@
     },
     {
       "id": "122",
-      "image_path": "images/sweater_adk_3.jpg",
+      "image_path": "images/products/sweater_adk_3.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color sweater - Variant 3",
       "type": "sweater",
       "color": "any color",
@@ -1466,7 +1466,7 @@
     },
     {
       "id": "123",
-      "image_path": "images/dress_geometric_2.jpg",
+      "image_path": "images/products/dress_geometric_2.jpg",
       "description": "modern geometric print on a black dress - Variant 2",
       "type": "dress",
       "color": "black",
@@ -1478,7 +1478,7 @@
     },
     {
       "id": "124",
-      "image_path": "images/tshirt_animals_4.jpg",
+      "image_path": "images/products/tshirt_animals_4.jpg",
       "description": "random animals illustration on a light colored t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "light colored",
@@ -1490,7 +1490,7 @@
     },
     {
       "id": "125",
-      "image_path": "images/sweater_adk_1.jpg",
+      "image_path": "images/products/sweater_adk_1.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color sweater - Variant 1",
       "type": "sweater",
       "color": "any color",
@@ -1502,7 +1502,7 @@
     },
     {
       "id": "126",
-      "image_path": "images/longsleeve_modern_3.jpg",
+      "image_path": "images/products/longsleeve_modern_3.jpg",
       "description": "modern abstract pattern on a sage green long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "sage green",
@@ -1514,7 +1514,7 @@
     },
     {
       "id": "127",
-      "image_path": "images/tshirt_astronomy_4.jpg",
+      "image_path": "images/products/tshirt_astronomy_4.jpg",
       "description": "constellations and celestial bodies on a dark blue t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "dark blue",
@@ -1526,7 +1526,7 @@
     },
     {
       "id": "128",
-      "image_path": "images/sweater_geometric_3.jpg",
+      "image_path": "images/products/sweater_geometric_3.jpg",
       "description": "modern geometric knit pattern on a navy sweater - Variant 3",
       "type": "sweater",
       "color": "navy",
@@ -1538,7 +1538,7 @@
     },
     {
       "id": "129",
-      "image_path": "images/dress_artistic_2.jpg",
+      "image_path": "images/products/dress_artistic_2.jpg",
       "description": "artistic brush stroke pattern on a burgundy dress - Variant 2",
       "type": "dress",
       "color": "burgundy",
@@ -1550,7 +1550,7 @@
     },
     {
       "id": "130",
-      "image_path": "images/sweater_argyle_2.jpg",
+      "image_path": "images/products/sweater_argyle_2.jpg",
       "description": "modern argyle pattern on a charcoal sweater - Variant 2",
       "type": "sweater",
       "color": "charcoal",
@@ -1562,7 +1562,7 @@
     },
     {
       "id": "131",
-      "image_path": "images/longsleeve_marble_3.jpg",
+      "image_path": "images/products/longsleeve_marble_3.jpg",
       "description": "marble effect pattern on a white long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "white",
@@ -1574,7 +1574,7 @@
     },
     {
       "id": "132",
-      "image_path": "images/tshirt_abstract_1.jpg",
+      "image_path": "images/products/tshirt_abstract_1.jpg",
       "description": "abstract watercolor patterns on a mint green t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "mint green",
@@ -1586,7 +1586,7 @@
     },
     {
       "id": "133",
-      "image_path": "images/sweater_striped_4.jpg",
+      "image_path": "images/products/sweater_striped_4.jpg",
       "description": "bold striped pattern on a cream sweater - Variant 4",
       "type": "sweater",
       "color": "cream",
@@ -1598,7 +1598,7 @@
     },
     {
       "id": "134",
-      "image_path": "images/dress_floral_3.jpg",
+      "image_path": "images/products/dress_floral_3.jpg",
       "description": "delicate floral pattern on a pastel blue dress - Variant 3",
       "type": "dress",
       "color": "pastel blue",
@@ -1610,7 +1610,7 @@
     },
     {
       "id": "135",
-      "image_path": "images/dress_floral_2.jpg",
+      "image_path": "images/products/dress_floral_2.jpg",
       "description": "delicate floral pattern on a pastel blue dress - Variant 2",
       "type": "dress",
       "color": "pastel blue",
@@ -1622,7 +1622,7 @@
     },
     {
       "id": "136",
-      "image_path": "images/longsleeve_marble_2.jpg",
+      "image_path": "images/products/longsleeve_marble_2.jpg",
       "description": "marble effect pattern on a white long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "white",
@@ -1634,7 +1634,7 @@
     },
     {
       "id": "137",
-      "image_path": "images/sweater_argyle_3.jpg",
+      "image_path": "images/products/sweater_argyle_3.jpg",
       "description": "modern argyle pattern on a charcoal sweater - Variant 3",
       "type": "sweater",
       "color": "charcoal",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "138",
-      "image_path": "images/dress_artistic_3.jpg",
+      "image_path": "images/products/dress_artistic_3.jpg",
       "description": "artistic brush stroke pattern on a burgundy dress - Variant 3",
       "type": "dress",
       "color": "burgundy",
@@ -1658,7 +1658,7 @@
     },
     {
       "id": "139",
-      "image_path": "images/sweater_geometric_2.jpg",
+      "image_path": "images/products/sweater_geometric_2.jpg",
       "description": "modern geometric knit pattern on a navy sweater - Variant 2",
       "type": "sweater",
       "color": "navy",
@@ -1670,7 +1670,7 @@
     },
     {
       "id": "140",
-      "image_path": "images/dress_minimal_1.jpg",
+      "image_path": "images/products/dress_minimal_1.jpg",
       "description": "minimalist line pattern on a gray dress - Variant 1",
       "type": "dress",
       "color": "gray",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "141",
-      "image_path": "images/longsleeve_modern_2.jpg",
+      "image_path": "images/products/longsleeve_modern_2.jpg",
       "description": "modern abstract pattern on a sage green long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "sage green",
@@ -1694,7 +1694,7 @@
     },
     {
       "id": "142",
-      "image_path": "images/dress_geometric_1.jpg",
+      "image_path": "images/products/dress_geometric_1.jpg",
       "description": "modern geometric print on a black dress - Variant 1",
       "type": "dress",
       "color": "black",
@@ -1706,7 +1706,7 @@
     },
     {
       "id": "143",
-      "image_path": "images/sweater_adk_4.jpg",
+      "image_path": "images/products/sweater_adk_4.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color sweater - Variant 4",
       "type": "sweater",
       "color": "any color",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "144",
-      "image_path": "images/tshirt_animals_1.jpg",
+      "image_path": "images/products/tshirt_animals_1.jpg",
       "description": "random animals illustration on a light colored t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "light colored",
@@ -1730,7 +1730,7 @@
     },
     {
       "id": "145",
-      "image_path": "images/tshirt_astronomy_1.jpg",
+      "image_path": "images/products/tshirt_astronomy_1.jpg",
       "description": "constellations and celestial bodies on a dark blue t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "dark blue",
@@ -1742,7 +1742,7 @@
     },
     {
       "id": "146",
-      "image_path": "images/tshirt_nature_3.jpg",
+      "image_path": "images/products/tshirt_nature_3.jpg",
       "description": "mountain landscape with trees on a light green t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "light green",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "147",
-      "image_path": "images/tshirt_abstract_4.jpg",
+      "image_path": "images/products/tshirt_abstract_4.jpg",
       "description": "abstract watercolor patterns on a mint green t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "mint green",
@@ -1766,7 +1766,7 @@
     },
     {
       "id": "148",
-      "image_path": "images/sweater_striped_1.jpg",
+      "image_path": "images/products/sweater_striped_1.jpg",
       "description": "bold striped pattern on a cream sweater - Variant 1",
       "type": "sweater",
       "color": "cream",
@@ -1778,7 +1778,7 @@
     },
     {
       "id": "149",
-      "image_path": "images/tshirt_nature_2.jpg",
+      "image_path": "images/products/tshirt_nature_2.jpg",
       "description": "mountain landscape with trees on a light green t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "light green",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "150",
-      "image_path": "images/dress_minimal_4.jpg",
+      "image_path": "images/products/dress_minimal_4.jpg",
       "description": "minimalist line pattern on a gray dress - Variant 4",
       "type": "dress",
       "color": "gray",
@@ -1802,7 +1802,7 @@
     },
     {
       "id": "151",
-      "image_path": "images/dress_geometric_4.jpg",
+      "image_path": "images/products/dress_geometric_4.jpg",
       "description": "modern geometric print on a black dress - Variant 4",
       "type": "dress",
       "color": "black",
@@ -1814,7 +1814,7 @@
     },
     {
       "id": "152",
-      "image_path": "images/tshirt_animals_2.jpg",
+      "image_path": "images/products/tshirt_animals_2.jpg",
       "description": "random animals illustration on a light colored t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "light colored",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "153",
-      "image_path": "images/tshirt_astronomy_2.jpg",
+      "image_path": "images/products/tshirt_astronomy_2.jpg",
       "description": "constellations and celestial bodies on a dark blue t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "dark blue",
@@ -1838,7 +1838,7 @@
     },
     {
       "id": "154",
-      "image_path": "images/dress_artistic_4.jpg",
+      "image_path": "images/products/dress_artistic_4.jpg",
       "description": "artistic brush stroke pattern on a burgundy dress - Variant 4",
       "type": "dress",
       "color": "burgundy",
@@ -1850,7 +1850,7 @@
     },
     {
       "id": "155",
-      "image_path": "images/sweater_argyle_4.jpg",
+      "image_path": "images/products/sweater_argyle_4.jpg",
       "description": "modern argyle pattern on a charcoal sweater - Variant 4",
       "type": "sweater",
       "color": "charcoal",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "156",
-      "image_path": "images/sweater_striped_2.jpg",
+      "image_path": "images/products/sweater_striped_2.jpg",
       "description": "bold striped pattern on a cream sweater - Variant 2",
       "type": "sweater",
       "color": "cream",
@@ -1874,7 +1874,7 @@
     },
     {
       "id": "157",
-      "image_path": "images/dress_floral_4.jpg",
+      "image_path": "images/products/dress_floral_4.jpg",
       "description": "delicate floral pattern on a pastel blue dress - Variant 4",
       "type": "dress",
       "color": "pastel blue",
@@ -1886,7 +1886,7 @@
     },
     {
       "id": "158",
-      "image_path": "images/sweater_striped_3.jpg",
+      "image_path": "images/products/sweater_striped_3.jpg",
       "description": "bold striped pattern on a cream sweater - Variant 3",
       "type": "sweater",
       "color": "cream",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "159",
-      "image_path": "images/tshirt_nature_1.jpg",
+      "image_path": "images/products/tshirt_nature_1.jpg",
       "description": "mountain landscape with trees on a light green t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "light green",
@@ -1910,7 +1910,7 @@
     },
     {
       "id": "160",
-      "image_path": "images/longsleeve_marble_4.jpg",
+      "image_path": "images/products/longsleeve_marble_4.jpg",
       "description": "marble effect pattern on a white long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "white",
@@ -1922,7 +1922,7 @@
     },
     {
       "id": "161",
-      "image_path": "images/tshirt_astronomy_3.jpg",
+      "image_path": "images/products/tshirt_astronomy_3.jpg",
       "description": "constellations and celestial bodies on a dark blue t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "dark blue",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "162",
-      "image_path": "images/sweater_geometric_4.jpg",
+      "image_path": "images/products/sweater_geometric_4.jpg",
       "description": "modern geometric knit pattern on a navy sweater - Variant 4",
       "type": "sweater",
       "color": "navy",
@@ -1946,7 +1946,7 @@
     },
     {
       "id": "163",
-      "image_path": "images/longsleeve_modern_4.jpg",
+      "image_path": "images/products/longsleeve_modern_4.jpg",
       "description": "modern abstract pattern on a sage green long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "sage green",
@@ -1958,7 +1958,7 @@
     },
     {
       "id": "164",
-      "image_path": "images/tshirt_animals_3.jpg",
+      "image_path": "images/products/tshirt_animals_3.jpg",
       "description": "random animals illustration on a light colored t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "light colored",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "165",
-      "image_path": "images/dress_ethnic_2.jpg",
+      "image_path": "images/products/dress_ethnic_2.jpg",
       "description": "ethnic inspired pattern on a terracotta dress - Variant 2",
       "type": "dress",
       "color": "terracotta",
@@ -1982,7 +1982,7 @@
     },
     {
       "id": "166",
-      "image_path": "images/dress_tropical_3.jpg",
+      "image_path": "images/products/dress_tropical_3.jpg",
       "description": "tropical leaf pattern on a white dress - Variant 3",
       "type": "dress",
       "color": "white",
@@ -1994,7 +1994,7 @@
     },
     {
       "id": "167",
-      "image_path": "images/sweater_fairisle_2.jpg",
+      "image_path": "images/products/sweater_fairisle_2.jpg",
       "description": "traditional fair isle pattern on a cream sweater - Variant 2",
       "type": "sweater",
       "color": "cream",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "168",
-      "image_path": "images/sweater_cable_3.jpg",
+      "image_path": "images/products/sweater_cable_3.jpg",
       "description": "traditional cable knit pattern on a forest green sweater - Variant 3",
       "type": "sweater",
       "color": "forest green",
@@ -2018,7 +2018,7 @@
     },
     {
       "id": "169",
-      "image_path": "images/dress_abstract_4.jpg",
+      "image_path": "images/products/dress_abstract_4.jpg",
       "description": "abstract watercolor design on a sage green dress - Variant 4",
       "type": "dress",
       "color": "sage green",
@@ -2030,7 +2030,7 @@
     },
     {
       "id": "170",
-      "image_path": "images/sweater_herringbone_4.jpg",
+      "image_path": "images/products/sweater_herringbone_4.jpg",
       "description": "classic herringbone pattern on a camel sweater - Variant 4",
       "type": "sweater",
       "color": "camel",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "171",
-      "image_path": "images/longsleeve_adk_4.jpg",
+      "image_path": "images/products/longsleeve_adk_4.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "any color",
@@ -2054,7 +2054,7 @@
     },
     {
       "id": "172",
-      "image_path": "images/sweater_nordic_4.jpg",
+      "image_path": "images/products/sweater_nordic_4.jpg",
       "description": "nordic winter pattern on a gray sweater - Variant 4",
       "type": "sweater",
       "color": "gray",
@@ -2066,7 +2066,7 @@
     },
     {
       "id": "173",
-      "image_path": "images/sweater_cable_2.jpg",
+      "image_path": "images/products/sweater_cable_2.jpg",
       "description": "traditional cable knit pattern on a forest green sweater - Variant 2",
       "type": "sweater",
       "color": "forest green",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "174",
-      "image_path": "images/dress_striped_4.jpg",
+      "image_path": "images/products/dress_striped_4.jpg",
       "description": "elegant striped pattern on a cream dress - Variant 4",
       "type": "dress",
       "color": "cream",
@@ -2090,7 +2090,7 @@
     },
     {
       "id": "175",
-      "image_path": "images/dress_polka_4.jpg",
+      "image_path": "images/products/dress_polka_4.jpg",
       "description": "classic polka dot pattern on a navy dress - Variant 4",
       "type": "dress",
       "color": "navy",
@@ -2102,7 +2102,7 @@
     },
     {
       "id": "176",
-      "image_path": "images/sweater_fairisle_3.jpg",
+      "image_path": "images/products/sweater_fairisle_3.jpg",
       "description": "traditional fair isle pattern on a cream sweater - Variant 3",
       "type": "sweater",
       "color": "cream",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "177",
-      "image_path": "images/dress_tropical_2.jpg",
+      "image_path": "images/products/dress_tropical_2.jpg",
       "description": "tropical leaf pattern on a white dress - Variant 2",
       "type": "dress",
       "color": "white",
@@ -2126,7 +2126,7 @@
     },
     {
       "id": "178",
-      "image_path": "images/dress_ethnic_3.jpg",
+      "image_path": "images/products/dress_ethnic_3.jpg",
       "description": "ethnic inspired pattern on a terracotta dress - Variant 3",
       "type": "dress",
       "color": "terracotta",
@@ -2138,7 +2138,7 @@
     },
     {
       "id": "179",
-      "image_path": "images/longsleeve_geometric_1.jpg",
+      "image_path": "images/products/longsleeve_geometric_1.jpg",
       "description": "geometric line pattern on a navy long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "navy",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "180",
-      "image_path": "images/longsleeve_geometric_3.jpg",
+      "image_path": "images/products/longsleeve_geometric_3.jpg",
       "description": "geometric line pattern on a navy long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "navy",
@@ -2162,7 +2162,7 @@
     },
     {
       "id": "181",
-      "image_path": "images/dress_ethnic_1.jpg",
+      "image_path": "images/products/dress_ethnic_1.jpg",
       "description": "ethnic inspired pattern on a terracotta dress - Variant 1",
       "type": "dress",
       "color": "terracotta",
@@ -2174,7 +2174,7 @@
     },
     {
       "id": "182",
-      "image_path": "images/tshirt_tech_4.jpg",
+      "image_path": "images/products/tshirt_tech_4.jpg",
       "description": "colorful circuit board pattern on a navy blue t-shirt - Variant 4",
       "type": "t-shirt",
       "color": "navy blue",
@@ -2186,7 +2186,7 @@
     },
     {
       "id": "183",
-      "image_path": "images/sweater_fairisle_1.jpg",
+      "image_path": "images/products/sweater_fairisle_1.jpg",
       "description": "traditional fair isle pattern on a cream sweater - Variant 1",
       "type": "sweater",
       "color": "cream",
@@ -2198,7 +2198,7 @@
     },
     {
       "id": "184",
-      "image_path": "images/sweater_chevron_4.jpg",
+      "image_path": "images/products/sweater_chevron_4.jpg",
       "description": "chevron knit pattern on a burgundy sweater - Variant 4",
       "type": "sweater",
       "color": "burgundy",
@@ -2210,7 +2210,7 @@
     },
     {
       "id": "185",
-      "image_path": "images/sweater_cable_1.jpg",
+      "image_path": "images/products/sweater_cable_1.jpg",
       "description": "traditional cable knit pattern on a forest green sweater - Variant 1",
       "type": "sweater",
       "color": "forest green",
@@ -2222,7 +2222,7 @@
     },
     {
       "id": "186",
-      "image_path": "images/dress_tropical_1.jpg",
+      "image_path": "images/products/dress_tropical_1.jpg",
       "description": "tropical leaf pattern on a white dress - Variant 1",
       "type": "dress",
       "color": "white",
@@ -2234,7 +2234,7 @@
     },
     {
       "id": "187",
-      "image_path": "images/longsleeve_geometric_2.jpg",
+      "image_path": "images/products/longsleeve_geometric_2.jpg",
       "description": "geometric line pattern on a navy long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "navy",
@@ -2246,7 +2246,7 @@
     },
     {
       "id": "188",
-      "image_path": "images/dress_ethnic_4.jpg",
+      "image_path": "images/products/dress_ethnic_4.jpg",
       "description": "ethnic inspired pattern on a terracotta dress - Variant 4",
       "type": "dress",
       "color": "terracotta",
@@ -2258,7 +2258,7 @@
     },
     {
       "id": "189",
-      "image_path": "images/sweater_fairisle_4.jpg",
+      "image_path": "images/products/sweater_fairisle_4.jpg",
       "description": "traditional fair isle pattern on a cream sweater - Variant 4",
       "type": "sweater",
       "color": "cream",
@@ -2270,7 +2270,7 @@
     },
     {
       "id": "190",
-      "image_path": "images/tshirt_tech_1.jpg",
+      "image_path": "images/products/tshirt_tech_1.jpg",
       "description": "colorful circuit board pattern on a navy blue t-shirt - Variant 1",
       "type": "t-shirt",
       "color": "navy blue",
@@ -2282,7 +2282,7 @@
     },
     {
       "id": "191",
-      "image_path": "images/dress_striped_3.jpg",
+      "image_path": "images/products/dress_striped_3.jpg",
       "description": "elegant striped pattern on a cream dress - Variant 3",
       "type": "dress",
       "color": "cream",
@@ -2294,7 +2294,7 @@
     },
     {
       "id": "192",
-      "image_path": "images/dress_polka_3.jpg",
+      "image_path": "images/products/dress_polka_3.jpg",
       "description": "classic polka dot pattern on a navy dress - Variant 3",
       "type": "dress",
       "color": "navy",
@@ -2306,7 +2306,7 @@
     },
     {
       "id": "193",
-      "image_path": "images/sweater_nordic_3.jpg",
+      "image_path": "images/products/sweater_nordic_3.jpg",
       "description": "nordic winter pattern on a gray sweater - Variant 3",
       "type": "sweater",
       "color": "gray",
@@ -2318,7 +2318,7 @@
     },
     {
       "id": "194",
-      "image_path": "images/dress_abstract_2.jpg",
+      "image_path": "images/products/dress_abstract_2.jpg",
       "description": "abstract watercolor design on a sage green dress - Variant 2",
       "type": "dress",
       "color": "sage green",
@@ -2330,7 +2330,7 @@
     },
     {
       "id": "195",
-      "image_path": "images/sweater_herringbone_3.jpg",
+      "image_path": "images/products/sweater_herringbone_3.jpg",
       "description": "classic herringbone pattern on a camel sweater - Variant 3",
       "type": "sweater",
       "color": "camel",
@@ -2342,7 +2342,7 @@
     },
     {
       "id": "196",
-      "image_path": "images/longsleeve_adk_3.jpg",
+      "image_path": "images/products/longsleeve_adk_3.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color long sleeve - Variant 3",
       "type": "long sleeve",
       "color": "any color",
@@ -2354,7 +2354,7 @@
     },
     {
       "id": "197",
-      "image_path": "images/longsleeve_adk_2.jpg",
+      "image_path": "images/products/longsleeve_adk_2.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color long sleeve - Variant 2",
       "type": "long sleeve",
       "color": "any color",
@@ -2366,7 +2366,7 @@
     },
     {
       "id": "198",
-      "image_path": "images/sweater_herringbone_2.jpg",
+      "image_path": "images/products/sweater_herringbone_2.jpg",
       "description": "classic herringbone pattern on a camel sweater - Variant 2",
       "type": "sweater",
       "color": "camel",
@@ -2378,7 +2378,7 @@
     },
     {
       "id": "199",
-      "image_path": "images/dress_abstract_3.jpg",
+      "image_path": "images/products/dress_abstract_3.jpg",
       "description": "abstract watercolor design on a sage green dress - Variant 3",
       "type": "dress",
       "color": "sage green",
@@ -2390,7 +2390,7 @@
     },
     {
       "id": "200",
-      "image_path": "images/sweater_chevron_1.jpg",
+      "image_path": "images/products/sweater_chevron_1.jpg",
       "description": "chevron knit pattern on a burgundy sweater - Variant 1",
       "type": "sweater",
       "color": "burgundy",
@@ -2402,7 +2402,7 @@
     },
     {
       "id": "201",
-      "image_path": "images/sweater_nordic_2.jpg",
+      "image_path": "images/products/sweater_nordic_2.jpg",
       "description": "nordic winter pattern on a gray sweater - Variant 2",
       "type": "sweater",
       "color": "gray",
@@ -2414,7 +2414,7 @@
     },
     {
       "id": "202",
-      "image_path": "images/sweater_cable_4.jpg",
+      "image_path": "images/products/sweater_cable_4.jpg",
       "description": "traditional cable knit pattern on a forest green sweater - Variant 4",
       "type": "sweater",
       "color": "forest green",
@@ -2426,7 +2426,7 @@
     },
     {
       "id": "203",
-      "image_path": "images/dress_polka_2.jpg",
+      "image_path": "images/products/dress_polka_2.jpg",
       "description": "classic polka dot pattern on a navy dress - Variant 2",
       "type": "dress",
       "color": "navy",
@@ -2438,7 +2438,7 @@
     },
     {
       "id": "204",
-      "image_path": "images/dress_striped_2.jpg",
+      "image_path": "images/products/dress_striped_2.jpg",
       "description": "elegant striped pattern on a cream dress - Variant 2",
       "type": "dress",
       "color": "cream",
@@ -2450,7 +2450,7 @@
     },
     {
       "id": "205",
-      "image_path": "images/dress_tropical_4.jpg",
+      "image_path": "images/products/dress_tropical_4.jpg",
       "description": "tropical leaf pattern on a white dress - Variant 4",
       "type": "dress",
       "color": "white",
@@ -2462,7 +2462,7 @@
     },
     {
       "id": "206",
-      "image_path": "images/tshirt_tech_2.jpg",
+      "image_path": "images/products/tshirt_tech_2.jpg",
       "description": "colorful circuit board pattern on a navy blue t-shirt - Variant 2",
       "type": "t-shirt",
       "color": "navy blue",
@@ -2474,7 +2474,7 @@
     },
     {
       "id": "207",
-      "image_path": "images/dress_abstract_1.jpg",
+      "image_path": "images/products/dress_abstract_1.jpg",
       "description": "abstract watercolor design on a sage green dress - Variant 1",
       "type": "dress",
       "color": "sage green",
@@ -2486,7 +2486,7 @@
     },
     {
       "id": "208",
-      "image_path": "images/sweater_chevron_3.jpg",
+      "image_path": "images/products/sweater_chevron_3.jpg",
       "description": "chevron knit pattern on a burgundy sweater - Variant 3",
       "type": "sweater",
       "color": "burgundy",
@@ -2498,7 +2498,7 @@
     },
     {
       "id": "209",
-      "image_path": "images/longsleeve_adk_1.jpg",
+      "image_path": "images/products/longsleeve_adk_1.jpg",
       "description": "beautiful typography that says 'ADK' on it on a any color long sleeve - Variant 1",
       "type": "long sleeve",
       "color": "any color",
@@ -2510,7 +2510,7 @@
     },
     {
       "id": "210",
-      "image_path": "images/sweater_herringbone_1.jpg",
+      "image_path": "images/products/sweater_herringbone_1.jpg",
       "description": "classic herringbone pattern on a camel sweater - Variant 1",
       "type": "sweater",
       "color": "camel",
@@ -2522,7 +2522,7 @@
     },
     {
       "id": "211",
-      "image_path": "images/sweater_chevron_2.jpg",
+      "image_path": "images/products/sweater_chevron_2.jpg",
       "description": "chevron knit pattern on a burgundy sweater - Variant 2",
       "type": "sweater",
       "color": "burgundy",
@@ -2534,7 +2534,7 @@
     },
     {
       "id": "212",
-      "image_path": "images/sweater_nordic_1.jpg",
+      "image_path": "images/products/sweater_nordic_1.jpg",
       "description": "nordic winter pattern on a gray sweater - Variant 1",
       "type": "sweater",
       "color": "gray",
@@ -2546,7 +2546,7 @@
     },
     {
       "id": "213",
-      "image_path": "images/dress_polka_1.jpg",
+      "image_path": "images/products/dress_polka_1.jpg",
       "description": "classic polka dot pattern on a navy dress - Variant 1",
       "type": "dress",
       "color": "navy",
@@ -2558,7 +2558,7 @@
     },
     {
       "id": "214",
-      "image_path": "images/dress_striped_1.jpg",
+      "image_path": "images/products/dress_striped_1.jpg",
       "description": "elegant striped pattern on a cream dress - Variant 1",
       "type": "dress",
       "color": "cream",
@@ -2570,7 +2570,7 @@
     },
     {
       "id": "215",
-      "image_path": "images/tshirt_tech_3.jpg",
+      "image_path": "images/products/tshirt_tech_3.jpg",
       "description": "colorful circuit board pattern on a navy blue t-shirt - Variant 3",
       "type": "t-shirt",
       "color": "navy blue",
@@ -2582,7 +2582,7 @@
     },
     {
       "id": "216",
-      "image_path": "images/longsleeve_geometric_4.jpg",
+      "image_path": "images/products/longsleeve_geometric_4.jpg",
       "description": "geometric line pattern on a navy long sleeve - Variant 4",
       "type": "long sleeve",
       "color": "navy",
