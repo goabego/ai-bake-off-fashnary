@@ -7,7 +7,7 @@ import json
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel
 from enum import Enum
-from product_utils import format_product_display
+from utils import format_product_display, format_user_display
 from collections import defaultdict
 from datetime import datetime
 import os
@@ -329,3 +329,24 @@ async def get_users_metadata():
             status_code=500,
             detail=f"Error loading users metadata: {str(e)}"
         )
+
+@app.get("/users/{user_id}/display")
+async def get_user_display(user_id: str):
+    """
+    Get a specific user by ID with formatted display data including the image.
+    Parameters:
+    - user_id: The unique identifier of the user
+    Returns:
+    - Formatted user details with base64 encoded image
+    """
+    users = load_users()
+    for user in users:
+        if user["id"] == user_id or user["id"].replace("user_", "") == user_id:
+            formatted_user = format_user_display(user)
+            if "error" in formatted_user:
+                raise HTTPException(
+                    status_code=500,
+                    detail=formatted_user["error"]
+                )
+            return formatted_user
+    raise HTTPException(status_code=404, detail="User not found")
