@@ -16,7 +16,7 @@ def format_product_display(product: Dict[str, Any]) -> Dict[str, Any]:
     """
     try:
         # Read and encode image
-        image_path = Path(f"../{product["image_path"]}")
+        image_path = Path(f"../{product['image_path']}")
         if not image_path.exists():
             return {
                 "error": "Image not found",
