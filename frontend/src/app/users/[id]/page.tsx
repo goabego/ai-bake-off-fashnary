@@ -1,14 +1,54 @@
+// src/app/users/[id]/page.tsx
 import React, { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import { Badge } from '@/components/ui/badge';
 
+type UserProfilePageProps = {
+  params: { id: string };
+};
+
 async function getUser(id: string) {
-  const res = await fetch(`http://localhost:8000/users/${id}/display`);
-  if (!res.ok) return null;
+  const apiBaseUrl = process.env.BACKEND_URL || 'http://localhost:8000';
+  console.log("Backend URL (getUser):", apiBaseUrl);
+  const res = await fetch(`<span class="math-inline">\{apiBaseUrl\}/users/</span>{id}/display`);
+  if (!res.ok) {
+    console.error(`Failed to fetch user ${id}: ${res.status} ${res.statusText}`);
+    return null;
+  }
   return res.json();
 }
 
-export default async function UserProfilePage({ params }: { params: { id: string } }) {
+export async function generateStaticParams() {
+  const apiBaseUrl = process.env.BACKEND_URL || 'http://localhost:8000';
+  console.log("Backend URL (generateStaticParams):", apiBaseUrl);
+  try {
+    const res = await fetch(`${apiBaseUrl}/users/all_ids`);
+    if (!res.ok) {
+      console.error(`Failed to fetch user IDs: ${res.status} ${res.statusText}`);
+      // Throwing an error here will stop the build and indicate a problem
+      // Or return an empty array if you want the build to continue
+      return [];
+    }
+    const userIds: string[] = await res.json();
+    console.log("Fetched User IDs:", userIds);
+
+    if (!Array.isArray(userIds) || userIds.length === 0) {
+      console.warn("generateStaticParams received an empty or non-array list of user IDs.");
+      return []; // Ensure an empty array is returned if no IDs, or throw
+    }
+
+    return userIds.map((id) => ({
+      id: id,
+    }));
+  } catch (error) {
+    console.error("Error in generateStaticParams:", error);
+    // Important: If this function throws, it will likely break the build worker.
+    // You might need to gracefully handle or return empty if you want the build to continue.
+    return [];
+  }
+}
+
+export default async function UserProfilePage({ params }: UserProfilePageProps) {
   const user = await getUser(params.id);
   if (!user) return notFound();
 
@@ -22,7 +62,7 @@ export default async function UserProfilePage({ params }: { params: { id: string
         />
         <p>{user.image_url}</p>
         <h1 className="text-3xl font-bold text-center">{user.name}</h1>
-        <div className="flex flex-wrap gap-2 mb-4">Preferences: 
+        <div className="flex flex-wrap gap-2 mb-4">Preferences:
           {user.style_preferences.map((pref: string) => (
             <Badge key={pref} variant="secondary">{pref}</Badge>
           ))}
@@ -71,4 +111,4 @@ export default async function UserProfilePage({ params }: { params: { id: string
       </div>
     </div>
   );
-} 
+}

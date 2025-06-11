@@ -18,17 +18,19 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    const apiBaseUrl = process.env.BACKEND_URL || 'http://localhost:8000';
     if (!mounted) return;
 
     const fetchProducts = async () => {
       try {
-        const response = await fetch('${apiBaseURL}/products');
+        console.log("Backend URL:",apiBaseUrl)
+        const response = await fetch(`${apiBaseUrl}/products`);
         const data = await response.json();
         
         const displayData = await Promise.all(
           data.map(async (product: any) => {
             const displayResponse = await fetch(
-              `${apiBaseURL}/products/${product.id}/display`
+              `${apiBaseUrl}/products/${product.id}/display`
             );
             return displayResponse.json();
           })
