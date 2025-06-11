@@ -52,6 +52,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+venv/
 
 # Node
 node_modules/

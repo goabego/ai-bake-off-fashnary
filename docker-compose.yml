@@ -1,0 +1,30 @@
+services:
+  web:
+    build:
+      context: .        
+      dockerfile: backend/Dockerfile 
+    ports:
+      - "8000:8000"       
+  # frontend:
+  #   build:
+  #     context: .
+  #     dockerfile: frontend/Dockerfile
+  #   ports:
+  #     - "8080:3000"
+  db:
+    image: postgres:15-alpine # Use a lightweight PostgreSQL image
+    environment:
+      # These environment variables are specific to the Postgres image
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    volumes:
+      # Persistent volume for database data
+      - db_data:/var/lib/postgresql/data
+      # Initialize database with custom SQL (Postgres specific)
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    ports:
+      - "5432:5432" # Optional: Expose DB port if you need to connect from host tools
+    restart: unless-stopped # Automatically restart if it stops unexpectedly
+
+volumes:
+  db_data: # Define the named volume for database persistence
