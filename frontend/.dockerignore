@@ -1,0 +1,48 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+.pnp/
+
+# Production Build Artifacts (if you are doing a multi-stage build where these are created in a build stage)
+build
+dist
+out
+.next # For Next.js projects built for production
+
+# Development/Local Only Files
+.env
+.env.*.local # For Next.js local env files
+.DS_Store
+.git
+.gitignore
+.editorconfig
+.prettierrc
+.prettierignore
+.eslintignore
+.eslintrc.*
+tsconfig.json # Unless you build TS in a separate stage and need it in the final image
+src/**/*.test.ts
+src/**/*.test.tsx
+src/**/*.spec.ts
+src/**/*.spec.tsx
+*.spec.js
+*.test.js
+__tests__/
+
+# VS Code specific files
+.vscode
+
+# Docker specific files
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# npm-cache in the host
+.npm
+
+# Yarn specific files
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.yml
+.yarnrc.yml

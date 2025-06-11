@@ -1,30 +1,19 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args:
-      - 'build'
-      - '-t'
-      - 'gcr.io/$PROJECT_ID/backend:$SHORT_SHA'
-      - '-t'
-      - 'gcr.io/$PROJECT_ID/backend:latest'
-      - '-f'
-      - 'backend/Dockerfile' 
-
-  - name: 'gcr.io/cloud-builders/docker'
-    args:
-      - 'push'
-      - 'gcr.io/$PROJECT_ID//backend:$SHORT_SHA'
+    script: |
+      build -t us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/backend -f backend/Dockerfile .
+    automapSubstitutions: true
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'run'
       - 'deploy'
       - 'backend'
       - '--image'
-      - 'gcr.io/$PROJECT_ID/backend:$SHORT_SHA'
+      - 'us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/backend'
       - '--platform'
       - 'managed'
       - '--region'
       - 'us-west11' 
       - '--allow-unauthenticated' 
 images:
-  - 'gcr.io/$PROJECT_ID/backend:$SHORT_SHA'
-  - 'gcr.io/$PROJECT_ID/backend:latest'
+      - 'us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/backend'

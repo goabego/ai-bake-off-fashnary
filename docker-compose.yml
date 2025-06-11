@@ -5,12 +5,14 @@ services:
       dockerfile: backend/Dockerfile 
     ports:
       - "8000:8000"       
-  # frontend:
-  #   build:
-  #     context: .
-  #     dockerfile: frontend/Dockerfile
-  #   ports:
-  #     - "8080:3000"
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    environment:
+      - BACKEND_URL="http://localhost:8000"
+    ports:
+      - "8080:3000"
   db:
     image: postgres:15-alpine # Use a lightweight PostgreSQL image
     environment:

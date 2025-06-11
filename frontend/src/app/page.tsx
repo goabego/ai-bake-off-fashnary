@@ -11,6 +11,7 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const apiBaseUrl = process.env.BACKEND_URL || 'http://localhost:8000';
 
   useEffect(() => {
     setMounted(true);
@@ -21,13 +22,13 @@ export default function Home() {
 
     const fetchProducts = async () => {
       try {
-        const response = await fetch('http://localhost:8000/products');
+        const response = await fetch('${apiBaseURL}/products');
         const data = await response.json();
         
         const displayData = await Promise.all(
           data.map(async (product: any) => {
             const displayResponse = await fetch(
-              `http://localhost:8000/products/${product.id}/display`
+              `${apiBaseURL}/products/${product.id}/display`
             );
             return displayResponse.json();
           })
