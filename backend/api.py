@@ -7,10 +7,13 @@ import json
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel
 from enum import Enum
-from utils import format_product_display, format_user_display
+# Updated import to reflect that format_product_display, format_user_display,
+# and generate_gemini_tryon_image are in product_utils.py
+from product_utils import format_product_display, format_user_display, generate_gemini_tryon_image
 from collections import defaultdict
 from datetime import datetime
 import os
+import google.generativeai as genai # Added
 
 app = FastAPI(
     title="Fashnary API",
@@ -350,3 +353,64 @@ async def get_user_display(user_id: str):
                 )
             return formatted_user
     raise HTTPException(status_code=404, detail="User not found")
+
+
+# Pydantic model for the try-on request
+class TryOnRequest(BaseModel):
+    user_image_base64: str
+    product_image_base64: str
+    user_image_mimetype: str
+    product_image_mimetype: str
+
+# Placeholder for your actual API key loading mechanism
+# For development, you might load from an environment variable
+# IMPORTANT: Do not commit the actual API key to your repository
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+# Configure the Gemini client
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
+else:
+    print("WARNING: GEMINI_API_KEY environment variable not set. Try-on endpoint will not function.")
+
+
+@app.post("/api/v1/tryon/generate")
+async def generate_tryon_image_api(request: TryOnRequest):
+    """
+    Receives user and product images, and will use Gemini to generate a try-on image.
+    (Gemini integration logic to be added in a subsequent step)
+    """
+    # Use os.getenv directly here to reflect the current environment state for the test
+    if not os.getenv("GEMINI_API_KEY"):
+        raise HTTPException(status_code=500, detail="Gemini API key not configured on server.")
+
+    try:
+        print(f"Calling generate_gemini_tryon_image for user mimetype: {request.user_image_mimetype} and product mimetype: {request.product_image_mimetype}")
+
+        full_data_url = await generate_gemini_tryon_image(
+            model_image_base64=request.user_image_base64,
+            model_image_mimetype=request.user_image_mimetype,
+            clothing_image_base64=request.product_image_base64,
+            clothing_image_mimetype=request.product_image_mimetype
+        )
+
+        # The full_data_url already includes "data:image/jpeg;base64," prefix from generate_gemini_tryon_image
+        # So, the mimetype is part of it.
+        mimetype_from_url = "image/png" # Default
+        if full_data_url.startswith('data:'):
+             parts = full_data_url.split(';')[0].split(':')
+             if len(parts) > 1:
+                mimetype_from_url = parts[1]
+
+        return {
+            "generated_image_base64": full_data_url, # This is a data URL string
+            "mimetype": mimetype_from_url
+        }
+
+    except RuntimeError as e:
+        # This will catch errors raised by generate_gemini_tryon_image, like API key issues or prompt generation failures
+        raise HTTPException(status_code=500, detail=str(e))
+    except Exception as e:
+        # Catch any other unexpected errors
+        print(f"Unexpected error in generate_tryon_image_api: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"An unexpected error occurred during try-on generation: {str(e)}")
