@@ -2,16 +2,15 @@
 import React, { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import { Badge } from '@/components/ui/badge';
-import 'dotenv/config';
 
 type UserProfilePageProps = {
   params: { id: string };
 };
 
 async function getUser(id: string) {
-  const apiBaseUrl = process.env.BACKEND_URL || 'http://localhost:8000';
+  const apiBaseUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000';
   console.log("Backend URL (getUser):", apiBaseUrl);
-  const res = await fetch(`<span class="math-inline">\{apiBaseUrl\}/users/</span>{id}/display`);
+  const res = await fetch(`${apiBaseUrl}/users/${id}/display`);
   if (!res.ok) {
     console.error(`Failed to fetch user ${id}: ${res.status} ${res.statusText}`);
     return null;
@@ -20,7 +19,7 @@ async function getUser(id: string) {
 }
 
 export async function generateStaticParams() {
-  const apiBaseUrl = process.env.BACKEND_URL || 'http://localhost:8000';
+  const apiBaseUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000';
   console.log("Backend URL (generateStaticParams):", apiBaseUrl);
   try {
     const res = await fetch(`${apiBaseUrl}/users/all_ids`);

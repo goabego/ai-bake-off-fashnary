@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { ProductCard } from '@/components/ProductCard';
 import { ProductDisplay } from '@/types/product';
 import { motion } from 'framer-motion';
-import 'dotenv/config';
+// Remove this line as it's not needed in Next.js client components
 
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const apiBaseUrl = process.env.BACKEND_URL || 'http://localhost:8000';
+    const apiBaseUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000';
     console.log("Backend URL:", apiBaseUrl);
 
     if (!mounted) return;
