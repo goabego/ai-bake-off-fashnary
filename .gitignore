@@ -43,7 +43,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -71,7 +70,6 @@ game_setup/
 game_setup/*
 
 # Environment variables
-.env
 .env.local
 .env.development.local
 .env.test.local

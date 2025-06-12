@@ -2,6 +2,7 @@
 import React, { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import { Badge } from '@/components/ui/badge';
+import 'dotenv/config';
 
 type UserProfilePageProps = {
   params: { id: string };

@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import { ProductCard } from '@/components/ProductCard';
 import { ProductDisplay } from '@/types/product';
 import { motion } from 'framer-motion';
+import 'dotenv/config';
+
 
 export default function Home() {
   const [products, setProducts] = useState<ProductDisplay[]>([]);
@@ -11,7 +13,6 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const apiBaseUrl = process.env.BACKEND_URL || 'http://localhost:8000';
 
   useEffect(() => {
     setMounted(true);
@@ -19,6 +20,8 @@ export default function Home() {
 
   useEffect(() => {
     const apiBaseUrl = process.env.BACKEND_URL || 'http://localhost:8000';
+    console.log("Backend URL:", apiBaseUrl);
+
     if (!mounted) return;
 
     const fetchProducts = async () => {

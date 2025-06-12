@@ -453,4 +453,13 @@ Response format:
 
 ### Project Structure
 
+
+## Run Locally
+Everything is setup and configured to run in docker, we have setup docker compose, so you can run the following command:
+```bash
+docker compose up
 ```
+Then you can view the frontend via: [http://localhost:8080](http://localhost:8080) \
+Then the backend API via [http://localhost:8000](http://localhost:8000)
+
+*Note you can build the containers standalone, however the backend needs to pull content from the `images/` and `db/` folder as part of the build. The recommendation is to build from the root path `ai-bake-off-fashnary/` with the build command: `docker build -t backend -f backend/Dockerfile .`
