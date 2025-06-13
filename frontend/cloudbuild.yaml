@@ -1,0 +1,22 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t','us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/frontend', '.' ]
+    automapSubstitutions: true
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'push', 'us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/frontend' ]
+    automapSubstitutions: true
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'frontend'
+      - '--image'
+      - 'us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/frontend'
+      - '--region'
+      - 'us-west1'
+      - '--allow-unauthenticated' 
+      - '--set-env-vars'
+      - 'NEXT_PUBLIC_BACKEND_URL=https://backend-879168005744.us-west1.run.app' # Set the environment variable
+images:
+      - 'us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/frontend'

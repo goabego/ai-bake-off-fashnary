@@ -1,0 +1,20 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/backend', '.' ]
+    automapSubstitutions: true
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'push', 'us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/backend' ]
+    automapSubstitutions: true
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'backend'
+      - '--image'
+      - 'us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/backend'
+      - '--region'
+      - 'us-west1'
+      - '--allow-unauthenticated'
+images:
+      - 'us-west1-docker.pkg.dev/$PROJECT_ID/bake-off/backend'
