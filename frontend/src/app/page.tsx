@@ -80,7 +80,7 @@ export default function Home() {
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-6">
           <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-            Fashnary Staging Environment
+            Fashionary Staging Environment
           </h1>
           <p className="text-center text-gray-600 mt-2">
             Discover our curated collection of fashion essentials
@@ -135,7 +135,7 @@ export default function Home() {
       <footer className="bg-white border-t mt-12">
         <div className="container mx-auto px-4 py-6">
           <p className="text-center text-gray-600">
-            © 2024 Fashnary. All rights reserved.
+            © 2024 Fashionary. All rights reserved.
           </p>
         </div>
       </footer>
