@@ -1,0 +1,29 @@
+[project]
+name = "ai-bakeoff-images"
+version = "0.1.0"
+description = "ai-bakeoff-images-creation"
+authors = [
+    {name = "Abraham Gomez",email = "abrahamgomez@google.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-generativeai>=0.3.0",
+    "google-genai>=0.10.0",
+    "Pillow>=10.0.0",
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+    "pydantic>=2.6.0",
+    "python-multipart>=0.0.9"
+]
+
+[tool.poetry]
+package-mode = false
+name = "dummy-saas"
+version = "0.1.0"
+description = "E-commerce API with product sorting capabilities"
+authors = ["Your Name <your.email@example.com>"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
