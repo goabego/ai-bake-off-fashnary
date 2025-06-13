@@ -62,10 +62,6 @@ out/
 frontend/.next/
 frontend/out/
 
-# Game Setup
-game_setup/
-game_setup/*
-
 # Environment variables
 .env
 .env.local
