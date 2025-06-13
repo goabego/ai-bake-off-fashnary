@@ -12,6 +12,7 @@ endpoints=(
   "/metadata/products"
   "/users"
   "/users/$USER_ID"
+  "/users/$USER_ID/display"
   "/users/$USER_ID/purchases"
   "/users/$USER_ID/cart"
   "/metadata/users"
@@ -58,7 +59,7 @@ function test_endpoint() {
   echo
 }
 
-echo "--- Fashnary API Automated Test ---"
+echo "--- Fashionary API Automated Test ---"
 echo
 for endpoint in "${endpoints[@]}"; do
   test_endpoint "$endpoint"

@@ -1,4 +1,4 @@
-# Fashnary - AI Agent Bake Off - Google
+# Fashionary - AI Agent Bake Off - Google
 To help with the AI Agent Bake we made this starter code.
 
 You will have access to the `product_database.json` which will act as your "database" for the back-off. Please review the Dependencies section and contact us if you are facing any issues getting this code running locally.
@@ -136,7 +136,7 @@ The `users_database.json` file contains user data with the following structure:
 
 ![FastAPI Interactive Docs](./fast_api_screenshot.png)
 
-*The FastAPI auto-generated interactive API documentation (Swagger UI) for Fashnary.*
+*The FastAPI auto-generated interactive API documentation (Swagger UI) for Fashionary.*
 
 #### Avaliable Endpoints
 
@@ -214,9 +214,9 @@ The `users_database.json` file contains user data with the following structure:
 - Beautiful product cards with images
 - Mobile-friendly design
 
-![Fashnary Website Sample](./website-sample_screenshot.png)
+![Fashionary Website Sample](./website-sample_screenshot.png)
 
-*A sample of the Fashnary e-commerce website frontend UI.*
+*A sample of the Fashionary e-commerce website frontend UI.*
 
 
 ## Installation

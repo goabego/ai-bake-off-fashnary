@@ -13,7 +13,7 @@ from datetime import datetime
 import os
 
 app = FastAPI(
-    title="Fashnary API",
+    title="Fashionary API",
     description="API for managing e-commerce products with sorting capabilities",
     version="1.0.0"
 )
