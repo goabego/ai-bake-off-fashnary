@@ -29,4 +29,6 @@ images:
   - 'gcr.io/$PROJECT_ID/backend:$SHORT_SHA'
   - 'gcr.io/$PROJECT_ID/backend:latest'
 options:
-  - logging: NONE
+  logging: NONE
+  serviceAccount: 'cloud-build@bake-off-hosting.iam.gserviceaccount.com' #Replace with your service account
+
