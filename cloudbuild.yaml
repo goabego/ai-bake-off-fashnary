@@ -25,8 +25,8 @@ steps:
       - '--region'
       - 'us-west11' 
       - '--allow-unauthenticated' 
-options:
-  - logging: NONE
 images:
   - 'gcr.io/$PROJECT_ID/backend:$SHORT_SHA'
   - 'gcr.io/$PROJECT_ID/backend:latest'
+options:
+  - logging: NONE
