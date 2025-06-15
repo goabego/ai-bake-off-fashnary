@@ -78,3 +78,6 @@ frontend/out/
 # OS
 .DS_Store
 Thumbs.db
+
+# Deployment Scripts
+.cloud_run_deploy
