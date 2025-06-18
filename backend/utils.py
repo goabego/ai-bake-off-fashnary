@@ -89,7 +89,7 @@ def format_user_display(user: Dict[str, Any]) -> Dict[str, Any]:
         formatted_user = {
             "id": user["id"],
             "image": f"data:image/jpeg;base64,{img_str}",
-            "image_url": f"/{user["image_url"]}",
+            "image_url": f"/{user['image_url']}",
             "name": user["name"],
             "description": user["description"],
             "style_preferences": user["style_preferences"],
