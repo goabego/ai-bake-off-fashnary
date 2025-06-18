@@ -28,22 +28,16 @@ def format_product_display(product: Dict[str, Any]) -> Dict[str, Any]:
             if img.mode != 'RGB':
                 img = img.convert('RGB')
             
-            # Resize image if it's too large (max 800px width/height)
-            max_size = 800
-            if max(img.size) > max_size:
-                ratio = max_size / max(img.size)
-                new_size = tuple(int(dim * ratio) for dim in img.size)
-                img = img.resize(new_size, Image.Resampling.LANCZOS)
-            
             # Convert to base64
             buffered = io.BytesIO()
-            img.save(buffered, format="JPEG", quality=85)
+            img.save(buffered, format="JPEG", quality=100)
             img_str = base64.b64encode(buffered.getvalue()).decode()
             
         # Format product details
         formatted_product = {
             "id": product["id"],
             "image": f"data:image/jpeg;base64,{img_str}",
+            "image_url": f"/{product['image_path']}",
             "description": product["description"],
             "type": product["type"].title(),
             "color": product["color"].title(),
@@ -86,20 +80,16 @@ def format_user_display(user: Dict[str, Any]) -> Dict[str, Any]:
             # Convert image to RGB if it's not
             if img.mode != 'RGB':
                 img = img.convert('RGB')
-            # Resize image if too large (max 400px)
-            max_size = 400
-            if max(img.size) > max_size:
-                ratio = max_size / max(img.size)
-                new_size = tuple(int(dim * ratio) for dim in img.size)
-                img = img.resize(new_size, Image.Resampling.LANCZOS)
+            
             # Convert to base64
             buffered = io.BytesIO()
-            img.save(buffered, format="JPEG", quality=85)
+            img.save(buffered, format="JPEG", quality=100)
             img_str = base64.b64encode(buffered.getvalue()).decode()
 
         formatted_user = {
             "id": user["id"],
             "image": f"data:image/jpeg;base64,{img_str}",
+            "image_url": f"/{user["image_url"]}",
             "name": user["name"],
             "description": user["description"],
             "style_preferences": user["style_preferences"],

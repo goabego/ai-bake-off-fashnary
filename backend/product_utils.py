@@ -99,13 +99,14 @@ def format_user_display(user: Dict[str, Any]) -> Dict[str, Any]:
 
         formatted_user = {
             "id": user["id"],
-            "image": f"data:image/jpeg;base64,{img_str}",
+            "image_url": user["image_url"],
             "name": user["name"],
             "description": user["description"],
             "style_preferences": user["style_preferences"],
             "purchase_history": user["purchase_history"],
             "cart_status": user["cart_status"],
-            "created_at": user["created_at"]
+            "created_at": user["created_at"],
+            "image": f"data:image/jpeg;base64,{img_str}",
         }
         return formatted_user
     except Exception as e:
